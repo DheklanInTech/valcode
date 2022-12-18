@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.notification-preview-coupon {
+    width: 100% !important;
+}
+
+.valcode-wrapper {
+    margin: 3rem 5rem !important;
+}
+
+.valcode-cdwcb-content {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.valcode-cdwcb-image {
+    flex: 1 !important;
+    padding: 1rem 2rem !important;
+}
+
+.valcode-cdwcb-image img {
+    width: 400px !important;
+    height: 500px !important;
+}
+
+.valcode-cdwcb-details {
+    flex: 1 !important;
+    text-align: center !important;
+    padding: 2rem 0;
+}
+
+.valcode-cdwcb-title {
+    font-size: 40px !important;
+    font-weight: 500 !important;
+}
+
+.valcode-cdwcb-subtitle {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.valcode-cdwcb-coupon-code-container {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.valcode-cdwcd-coupon-code {
+    font-size: 30px;
+    margin: 0;
+    padding: 1rem 5rem;
+}
+
+.valcode-cdwcd-copy-button {
+    border-radius: 10px;
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.valcode-cdwcd-checkout {
+    font-style: italic;
+}
+
+@media(max-width: 950px) {
+    .valcode-cdwcd-copy-button {
+        border-radius: 10px;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .valcode-cdwcd-coupon-code {
+        font-size: 20px;
+        padding: 1rem 3rem;
+    }
+
+    .valcode-cdwcb-title {
+        font-size: 30px !important;
+    }
+
+    .valcode-cdwcb-subtitle {
+        font-size: 18px;
+
+    }
+
+    .valcode-wrapper {
+        margin: 3rem 1rem !important;
+    }
+
+    .valcode-cdwcb-content {
+        flex-direction: column;
+    }
+
+    .valcode-cdwcb-image img {
+        width: 200px !important;
+        height: 300px !important;
+    }
+
+    .valcode-cdwcb-coupon-code-container {
+        width: 80%;
+    }
+}
