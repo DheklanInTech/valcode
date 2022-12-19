@@ -449,9 +449,9 @@ body {
 }
 
 .valcode-cwof-subscribe-header {
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    width: 100% !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
 }
 
 .valcode-cwof-subscribe-close {
@@ -472,46 +472,46 @@ body {
 }
 
 .valcode-cwof-subscribe-title {
-    font-size: 30px;
-    text-align: start;
-    padding: 2.5rem 0 1rem 1rem;
+    font-size: 30px!important;
+    text-align: start!important;
+    padding: 2.5rem 0 1rem 1rem!important;
 }
 
 .valcode-cwof-subscribe-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: start;
-    align-items: flex-start;
-    padding: 0 1rem;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 100%!important;
+    justify-content: start!important;
+    align-items: flex-start!important;
+    padding: 0 1rem!important;
 }
 
 .valcode-cwof-subscribe-subtitle {
-    text-align: start;
-    font-size: 14px;
-    padding: 1rem 2rem 1rem 1rem;
+    text-align: start!important;
+    font-size: 14px!important;
+    padding: 1rem 2rem 1rem 1rem!important;
 }
 
 .valcode-cwof-subscribe-label {
-    font-size: 14px;
+    font-size: 14px!important;
 }
 
 .valcode-cwof-subscribe-input {
-    width: 70%;
-    outline: none;
-    border-radius: 5px;
-    padding: 0.5rem 0.5rem;
-    margin-top: 0.5rem;
+    width: 70%!important;
+    outline: none!important;
+    border-radius: 5px!important;
+    padding: 0.5rem 0.5rem!important;
+    margin-top: 0.5rem!important;
 }
 
 .valcode-cwof-subscribe-button {
-    margin: 1rem 0;
-    padding: 0.6rem 0;
-    width: 80%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
+    margin: 1rem 0!important;
+    padding: 0.6rem 0!important;
+    width: 80%!important;
+    border: none!important;
+    outline: none!important;
+    cursor: pointer!important;
+    border-radius: 5px!important;
 }
 
 @media(max-width: 950px) {
