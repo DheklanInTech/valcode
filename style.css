@@ -18,6 +18,10 @@ body {
     margin: 2rem 0 !important;
 }
 
+.valcode-wrapper-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 
 .valcode-cdwcb-content {
     display: flex !important;
@@ -306,3 +310,130 @@ body {
         margin-left: 1rem !important;
     }
 }
+
+/* third piece ends here  */
+
+/* fourth piece starts here  */
+.valcode-cwof-get-content {
+    width: 300px !important;
+    max-width: 300px !important;
+    border-radius: 10px !important;
+    position: relative !important;
+}
+
+.valcode-cwof-get-imagebox {
+    position: relative !important;
+    width: 300px !important;
+    max-width: 300px !important;
+    height: 200px !important;
+    max-height: 200px !important;
+
+}
+
+.valcode-cwof-get-bulbimage {
+    width: 250px !important;
+}
+
+.valcode-cwof-get-bulbimage img {
+    width: 250px !important;
+}
+
+.valcode-cwof-get-giftbox {
+    position: absolute !important;
+    width: 100px !important;
+    top: 70px !important;
+    left: 100px !important;
+}
+
+.valcode-cwof-get-giftbox img {
+    width: 90px !important;
+}
+
+.valcode-cwof-get-title {
+    font-size: 30px !important;
+    opacity: 70% !important;
+}
+
+.valcode-cwof-get-subtitle {
+    font-size: 30px !important;
+}
+
+.valcode-cwof-get-button {
+    border: none !important;
+    outline: none !important;
+    padding: 0.5rem 2rem !important;
+    margin: 1rem 0 1rem 0 !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+}
+
+.valcode-cwof-get-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 10px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-cwof-get-close img {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+@media(max-width:950px) {
+    .valcode-cwof-get-content {
+        width: 200px !important;
+        max-width: 200px !important;
+    }
+
+    .valcode-cwof-get-imagebox {
+        position: relative !important;
+        width: 200px !important;
+        max-width: 200px !important;
+        height: 180px !important;
+        max-height: 180px !important;
+
+    }
+
+    .valcode-cwof-get-bulbimage {
+        width: 200px !important;
+    }
+
+    .valcode-cwof-get-bulbimage img {
+        width: 200px !important;
+    }
+
+    .valcode-cwof-get-giftbox {
+        position: absolute !important;
+        width: 80px !important;
+        top: 50px !important;
+        left: 70px !important;
+    }
+
+    .valcode-cwof-get-giftbox img {
+        width: 80px !important;
+    }
+
+    .valcode-cwof-get-title {
+        font-size: 24px !important;
+        opacity: 70% !important;
+    }
+
+    .valcode-cwof-get-subtitle {
+        font-size: 30px !important;
+    }
+
+    .valcode-cwof-get-button {
+        border: none !important;
+        outline: none !important;
+        padding: 0.5rem 2rem !important;
+        margin: 1rem 0 1rem 0 !important;
+        border-radius: 8px !important;
+        cursor: pointer !important;
+    }
+}
+/* end of fourth piece  */
