@@ -319,6 +319,7 @@ body {
     max-width: 300px !important;
     border-radius: 10px !important;
     position: relative !important;
+    padding: 1rem 0;
 }
 
 .valcode-cwof-get-imagebox {
@@ -392,30 +393,30 @@ body {
 
     .valcode-cwof-get-imagebox {
         position: relative !important;
-        width: 200px !important;
-        max-width: 200px !important;
-        height: 180px !important;
+        width: 100px !important;
+        max-width: 100px !important;
+        height: 90px !important;
         max-height: 180px !important;
 
     }
 
     .valcode-cwof-get-bulbimage {
-        width: 200px !important;
+        width: 100px !important;
     }
 
     .valcode-cwof-get-bulbimage img {
-        width: 200px !important;
+        width: 100px !important;
     }
 
     .valcode-cwof-get-giftbox {
         position: absolute !important;
-        width: 80px !important;
-        top: 50px !important;
-        left: 70px !important;
+        width: 50px !important;
+        top: 20px !important;
+        left: 32px !important;
     }
 
     .valcode-cwof-get-giftbox img {
-        width: 80px !important;
+        width: 40px !important;
     }
 
     .valcode-cwof-get-title {
@@ -436,4 +437,87 @@ body {
         cursor: pointer !important;
     }
 }
+
 /* end of fourth piece  */
+
+/* start of fifth piece  */
+.valcode-cwof-subscribe-content {
+    width: 320px !important;
+    max-width: 320px !important;
+    border-radius: 10px !important;
+    position: relative !important;
+}
+
+.valcode-cwof-subscribe-header {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.valcode-cwof-subscribe-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 10px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-cwof-subscribe-close img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.valcode-cwof-subscribe-title {
+    font-size: 30px;
+    text-align: start;
+    padding: 2.5rem 0 1rem 1rem;
+}
+
+.valcode-cwof-subscribe-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+
+.valcode-cwof-subscribe-subtitle {
+    text-align: start;
+    font-size: 14px;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.valcode-cwof-subscribe-label {
+    font-size: 14px;
+}
+
+.valcode-cwof-subscribe-input {
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.valcode-cwof-subscribe-button {
+    margin: 1rem 0;
+    padding: 0.6rem 0;
+    width: 80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media(max-width: 950px) {
+    .valcode-cwof-subscribe-content {
+        width: 250px !important;
+        max-width: 250px !important;
+
+    }
+}
