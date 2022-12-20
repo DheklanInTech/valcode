@@ -22,6 +22,7 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+/* =================COUPON DISPLAY WITH COPY BUTTON============  */
 
 .valcode-cdwcb-content {
     display: flex !important;
@@ -134,6 +135,7 @@ body {
 /* end of first  */
 
 /* second starts here  */
+/* <!-- ========== FULL CALL TO ACTION BAR ================== --> */
 
 .valcode-fctab-content {
     display: flex !important;
@@ -219,6 +221,7 @@ body {
 /* <!-- end of second  piece --> */
 
 /* third piece starts here  */
+/* ========================FULL CALL TO ACTION BAR WITH TIMER =============================  */
 
 .valcode-fctabwt-content {
     display: flex !important;
@@ -314,6 +317,8 @@ body {
 /* third piece ends here  */
 
 /* fourth piece starts here  */
+/* <!-- ============COUPON WITH OPT-IN FORM(GET IT)========== --> */
+
 .valcode-cwof-get-content {
     width: 300px !important;
     max-width: 300px !important;
@@ -441,6 +446,8 @@ body {
 /* end of fourth piece  */
 
 /* start of fifth piece  */
+/* <!-- ===============COUPON WITH OPT-IN FORM(SUBSCRIBE)=============== --> */
+
 .valcode-cwof-subscribe-content {
     width: 320px !important;
     max-width: 320px !important;
@@ -472,46 +479,46 @@ body {
 }
 
 .valcode-cwof-subscribe-title {
-    font-size: 30px!important;
-    text-align: start!important;
-    padding: 2.5rem 0 1rem 1rem!important;
+    font-size: 30px !important;
+    text-align: start !important;
+    padding: 2.5rem 0 1rem 1rem !important;
 }
 
 .valcode-cwof-subscribe-form {
-    display: flex!important;
-    flex-direction: column!important;
-    width: 100%!important;
-    justify-content: start!important;
-    align-items: flex-start!important;
-    padding: 0 1rem!important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    justify-content: start !important;
+    align-items: flex-start !important;
+    padding: 0 1rem !important;
 }
 
 .valcode-cwof-subscribe-subtitle {
-    text-align: start!important;
-    font-size: 14px!important;
-    padding: 1rem 2rem 1rem 1rem!important;
+    text-align: start !important;
+    font-size: 14px !important;
+    padding: 1rem 2rem 1rem 1rem !important;
 }
 
 .valcode-cwof-subscribe-label {
-    font-size: 14px!important;
+    font-size: 14px !important;
 }
 
 .valcode-cwof-subscribe-input {
-    width: 70%!important;
-    outline: none!important;
-    border-radius: 5px!important;
-    padding: 0.5rem 0.5rem!important;
-    margin-top: 0.5rem!important;
+    width: 70% !important;
+    outline: none !important;
+    border-radius: 5px !important;
+    padding: 0.5rem 0.5rem !important;
+    margin-top: 0.5rem !important;
 }
 
 .valcode-cwof-subscribe-button {
-    margin: 1rem 0!important;
-    padding: 0.6rem 0!important;
-    width: 80%!important;
-    border: none!important;
-    outline: none!important;
-    cursor: pointer!important;
-    border-radius: 5px!important;
+    margin: 1rem 0 !important;
+    padding: 0.6rem 0 !important;
+    width: 80% !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
 }
 
 @media(max-width: 950px) {
@@ -519,5 +526,335 @@ body {
         width: 250px !important;
         max-width: 250px !important;
 
+    }
+}
+
+/* end of fifth piece  */
+
+/* sixth piece starts here  */
+/* <!-- =============LIVE COUNTER ====================== --> */
+
+.valcode-livecounter-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 320px;
+    gap: 10px;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+
+.valcode-livecounter-image {
+    width: 50px;
+    height: 50px;
+}
+
+.valcode-livecounter-image img {
+    width: 50px;
+    height: 50px;
+}
+
+.valcode-livecounter-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.valcode-livecounter-subtitle {
+    font-size: 11px;
+    text-align: start;
+}
+
+@media(max-width:950px) {
+    .valcode-livecounter-content {
+        width: 220px;
+        gap: 10px;
+        padding: 1rem 0.5rem;
+        border-radius: 5px;
+    }
+
+    .valcode-livecounter-image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .valcode-livecounter-image img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .valcode-livecounter-title {
+        font-size: 10px;
+    }
+
+    .valcode-livecounter-subtitle {
+        font-size: 8px;
+
+    }
+}
+
+/* sixth piece ends here  */
+
+/* seventh piece starts here  */
+/* <!-- =============== CONVERSION COUNTER ============= --> */
+
+.valcode-conversion_counter-content {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: flex-start !important;
+    width: 320px !important;
+    gap: 10px !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px !important;
+}
+
+.valcode-conversion_counter-details {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.valcode-conversion_counter-image {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.valcode-conversion_counter-image img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.valcode-conversion_counter-flash {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.valcode-conversion_counter-flash img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.valcode-conversion_counter-text {
+    font-size: 12px !important;
+    text-align: start !important;
+}
+
+.valcode-conversion_counter-link {
+    font-size: 12px !important;
+    float: left !important;
+    padding: 0.2rem 0 !important;
+}
+
+.valcode-conversion_counter-footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: -5rem !important;
+    font-size: 12px !important;
+}
+
+@media(max-width:950px) {
+    .valcode-conversion_counter-content {
+        width: 220px !important;
+        gap: 10px !important;
+        padding: 0.5rem 1rem !important;
+    }
+
+    .valcode-conversion_counter-image {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .valcode-conversion_counter-image img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .valcode-conversion_counter-flash {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .valcode-conversion_counter-flash img {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .valcode-conversion_counter-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-conversion_counter-link {
+        font-size: 10px !important;
+        padding: 0.1rem 0 !important;
+    }
+
+    .valcode-conversion_counter-footer {
+        font-size: 10px !important;
+    }
+}
+
+/* seventh piece ends here  */
+/* <!-- ========= YES/NO BAR ================ --> */
+
+.valcode-ynbar-content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 250px !important;
+    gap: 10px !important;
+    border-radius: 5px !important;
+}
+
+.valcode-ynbar-image {
+    width: 140px !important;
+    height: 120px !important;
+}
+
+.valcode-ynbar-image img {
+    width: 140px !important;
+    height: 120px !important;
+}
+
+.valcode-ynbar-title {
+    padding: 0.5rem 0 !important;
+    font-size: 14px !important;
+}
+
+.valcode-ynbar-button {
+    padding: 0.5rem 0 !important;
+    width: 70% !important;
+    margin: 0.5rem 0 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 10px !important;
+    font-family: inherit !important;
+}
+
+@media(max-width:950px) {
+    .valcode-ynbar-content {
+        width: 180px !important;
+        gap: 10px !important;
+    }
+
+    .valcode-ynbar-image {
+        width: 120px !important;
+        height: 100px !important;
+    }
+
+    .valcode-ynbar-image img {
+        width: 120px !important;
+        height: 100px !important;
+    }
+
+    .valcode-ynbar-title {
+        padding: 0.5rem 0 !important;
+        font-size: 10px !important;
+    }
+
+    .valcode-ynbar-button {
+        padding: 0.5rem 0 !important;
+        width: 70% !important;
+        border: none !important;
+        font-size: 8px !important;
+    }
+}
+
+/* =========== COUNTDOWNTIMER=========================  */
+.valcode-countdowntimer-content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 300px !important;
+    border-radius: 5px !important;
+}
+
+.valcode-countdowntimer-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    word-spacing: 0.2rem !important;
+}
+
+.valcode-countdowntimer-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 1rem 0 !important;
+}
+
+.valcode-countdowntimer-time {
+    height: 40px !important;
+    width: 30px !important;
+    font-size: 20px !important;
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-countdowntimer-bolt {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.valcode-countdowntimer-bolt img {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.valcode-countdowntimer-timebox {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1px !important;
+}
+
+.valcode-countdowntimer-period {
+    margin-top: 0.2rem !important;
+    font-size: 12px !important;
+}
+
+.valcode-countdowntimer-button {
+    font-family: inherit !important;
+    font-size: 12px !important;
+    padding: 0.3rem 2rem !important;
+    border-radius: 3px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+@media(max-width:950px) {
+    .valcode-countdowntimer-content {
+        width: 200px !important;
+    }
+
+    .valcode-countdowntimer-title {
+        font-size: 12px !important;
+        word-spacing: 0.1rem !important;
+        text-align: center !important;
+    }
+
+    .valcode-countdowntimer-container {
+        gap: 8px !important;
+        padding: 0.8rem 0 !important;
+    }
+
+    .valcode-countdowntimer-time {
+        height: 25px !important;
+        width: 20px !important;
+        font-size: 10px !important;
+        padding: 0.5rem 0.5rem !important;
+        border-radius: 1px !important;
+    }
+
+    .valcode-countdowntimer-period {
+        font-size: 10px !important;
+    }
+
+    .valcode-countdowntimer-button {
+        font-size: 10px !important;
+        padding: 0.3rem 1rem !important;
+        border-radius: 3px !important;
     }
 }
