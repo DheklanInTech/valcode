@@ -858,3 +858,290 @@ body {
         border-radius: 3px !important;
     }
 }
+
+/* =========================SUPPORT BOX====================  */
+
+.valcode-supportbox-content{
+    width: 300px !important;
+    border-radius: 5px !important;
+    height: 380px!important;
+    max-width: fit-content!important;
+    position: relative!important;
+    overflow: hidden!important;
+}
+.valcode-supporbox-header{
+    width: 100%!important;
+    display: flex!important;
+    justify-content: start!important;
+    align-items: center!important;
+    gap: 10px!important;
+    padding: 0.5rem 1rem!important;
+}
+.valcode-supporbox-avatar{
+    height: 40px!important;
+    width: 40px!important;
+}
+.valcode-supporbox-avatar img{
+    height: 40px!important;
+    width: 40px!important;
+}
+.valcode-supporbox-title{
+    font-size: 14px!important;
+}
+.valcode-supporbox-leftchat{
+    display: flex!important;
+    justify-content: start!important;
+    align-items: center!important;
+    gap: 10px!important;
+    margin: 1rem  0 0.5rem 0.5rem!important;
+}
+.valcode-supporbox-leftchat-image{
+    height: 30px!important;
+    width: 30px!important;
+}
+.valcode-supporbox-leftchat-image img{
+    height: 30px!important;
+    width: 30px!important;
+}
+.valcode-supporbox-leftchat-text{
+    font-size: 12px!important;
+}
+.valcode-supporbox-leftchat-chat{
+    padding: 0.7rem 0.7rem!important;
+    max-width: 65%!important;
+    text-align: start!important;
+    border-radius: 20px!important; 
+}
+.valcode-supporbox-rightchat-chat{
+    padding: 0.7rem 0.7rem!important;
+    max-width: 65%!important;
+    text-align: end!important;
+    border-radius: 20px!important; 
+}
+.valcode-supporbox-rightchat{
+    display: flex!important;
+    justify-content: end!important;
+    align-items: center!important;
+    gap: 10px!important;
+    margin: 1rem  0.5rem 0.5rem 0!important;
+}
+.valcode-supporbox-rightchat-image{
+    height: 30px!important;
+    width: 30px!important;
+}
+.valcode-supporbox-rightchat-image img{
+    height: 30px!important;
+    width: 30px!important; 
+}
+.valcode-supporbox-rightchat-text{
+    font-size: 12px!important;
+}
+.valcode-supporbox-footer{
+    position: absolute!important;
+    bottom: 0!important;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    width: 100%!important;
+    padding: 0.5rem 1rem!important;
+}
+.valcode-supporbox-footer-btn{
+    height: 30px!important;
+    width: 30px!important;
+    border: none!important;
+    outline: none!important;
+    background: transparent!important;
+    cursor: pointer!important;
+}
+.valcode-supporbox-footer-input{
+    width: 100%!important;
+    font-size: 8px!important;
+    border: none!important;
+    outline: none!important;
+    padding: 0.3rem 0.2rem!important;
+}
+.valcode-supporbox-footer-buttons{
+    display: flex!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+}
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1{
+    height: 18px!important;
+    width: 18px!important; 
+}
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2{
+    height: 25px!important;
+    width: 25px!important; 
+}
+
+@media(max-width:950px){
+    
+.valcode-supportbox-content{
+    width:200px !important;
+    height: 280px!important;
+}
+
+.valcode-supporbox-avatar{
+    height: 30px!important;
+    width: 30px!important;
+}
+.valcode-supporbox-avatar img{
+    height: 30px!important;
+    width: 30px!important;
+}
+.valcode-supporbox-title{
+    font-size: 12px!important;
+}
+
+.valcode-supporbox-leftchat-image{
+    height: 25px!important;
+    width: 25px!important;
+}
+.valcode-supporbox-leftchat-image img{
+    height: 25px!important;
+    width: 25px!important;
+}
+.valcode-supporbox-leftchat-text{
+    font-size: 10px!important;
+}
+
+.valcode-supporbox-rightchat-image{
+    height: 25px!important;
+    width: 25px!important;
+}
+.valcode-supporbox-rightchat-image img{
+    height: 25px!important;
+    width: 25px!important; 
+}
+.valcode-supporbox-rightchat-text{
+    font-size: 10px!important;
+}
+.valcode-supporbox-footer{
+    padding: 0.5rem 0.5rem!important;
+}
+.valcode-supporbox-footer-btn{
+    height: 25px!important;
+    width: 25px!important;
+
+}
+
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1{
+    height: 16px!important;
+    width: 16px!important; 
+}
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2{
+    height: 22px!important;
+    width: 22px!important; 
+}
+
+}
+
+
+/* ============ EVENT REGISTRATION WITH TIMER ====  */
+.valcode-erwt-content{
+    width: 300px !important;
+    border-radius: 5px !important;
+    max-width: fit-content!important;
+    padding: 1rem 1rem !important;
+}
+.valcode-erwt-title{
+    width: 60%!important;
+    font-weight: 800!important;
+    font-size: 16px!important;
+    padding: 0.3rem 0!important;
+    border-radius: 5px!important;
+}
+.valcode-erwt-subtitle{
+    font-size: 12px!important;
+    text-align: center!important;
+    padding: 1rem 0.5rem!important;
+}
+.valcode-erwt-videocontent{
+    width: 250px!important;
+    height: 150px!important;
+}
+.valcode-erwt-videocontent img{
+    width: 250px!important;
+    height: 150px!important;
+}
+.valcode-erwt-timer-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+    padding: 1rem 0!important;
+}
+.valcode-erwt-time{
+    font-size: 16px!important;
+    font-weight: 600!important;
+}
+
+.valcode-erwt-span {
+    font-size: 10px !important;
+}
+.valcode-erwt-footer-input{
+    border:none!important;
+    outline: none!important;
+    padding: 0.5rem 0.5rem!important;
+    width: 68%!important;
+    border-radius: 5px!important;
+}
+.valcode-erwt-footer-btn{
+    border:none!important;
+    outline: none!important;
+    padding: 0.5rem 0!important;
+    width: 28%!important;
+    border-radius: 5px!important; 
+    font-family: inherit!important;
+    font-weight: 600!important;
+}
+.valcode-erwt-footer-text{
+    font-size: 8px!important;
+    margin-top: 0.5rem!important;
+}
+@media(max-width:950px){
+    .valcode-erwt-content{
+        width: 200px !important;
+    }
+    .valcode-erwt-title{
+        width: 65%!important;
+        font-size: 14px!important;
+    }
+    .valcode-erwt-subtitle{
+        font-size: 8px!important;
+        text-align: center!important;
+        padding: 1rem 0.5rem!important;
+    }
+    .valcode-erwt-videocontent{
+        width: 150px!important;
+        height: 100px!important;
+        max-width: fit-content!important;
+        max-height: fit-content!important;
+    }
+    .valcode-erwt-videocontent img{
+        width: 150px!important;
+        height: 100px!important;
+    }
+    .valcode-erwt-timer-container {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        gap: 1px !important;
+        padding: 1rem 0!important;
+    }
+    .valcode-erwt-time{
+        font-size: 14px!important;
+    }
+    
+    .valcode-erwt-span {
+        font-size: 8px !important;
+    }
+    .valcode-erwt-footer-input{
+        font-size: 10px !important;
+
+    }
+    .valcode-erwt-footer-btn{
+        font-size: 10px !important;
+    }
+  
+}
