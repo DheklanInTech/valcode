@@ -21,6 +21,7 @@
         <div class="notification-preview-coupon">
             <div class="valcode-wrapper valcode-wrapper-rounded">
                 <div class="valcode-cdwcb-content valcode-wrapper-shadow" style="border:1px solid #000 ;">
+                    <button class="valcode-cdwcd-close"><img src="/images/close.png" alt=""></button>
                     <div class="valcode-cdwcb-image" style="background: #000;">
                         <img src="/images/book.jpg" class="valcode-cdwcb-image" alt="book">
                     </div>
@@ -43,17 +44,19 @@
         <!-- second piece -->
         <!-- ========== FULL CALL TO ACTION BAR ================== -->
         <div class="notification-preview-coupon">
-            <div class="valcode-wrapper valcode-wrapper-rounded valcode-wrapper-shadow">
-                <div class="valcode-fctab-content" style="background: #000;">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-fctab-content valcode-wrapper-shadow" style="background: #000;">
+
                     <div class="valcode-fctab-details">
                         <img src="/images/fire.png" alt=" fire">
                         <p class="valcode-fctab-text" style="color: #fff;">Get our brand new copywriting ebook for free
                         </p>
                     </div>
-                    <div>
 
-                        <button class="valcode-fctab-button" style="color: #fff; background:red">Send it To Me</button>
-                    </div>
+
+                    <button onclick="" class="valcode-fctab-button" style="color: #fff; background:red">Send it To
+                        Me</button>
+
 
                 </div>
             </div>
@@ -63,8 +66,8 @@
         <!-- start of third piece  -->
         <!-- ========================FULL CALL TO ACTION BAR WITH TIMER ============================= -->
         <div class="notification-preview-coupon">
-            <div class="valcode-wrapper valcode-wrapper-rounded valcode-wrapper-shadow">
-                <div class="valcode-fctabwt-content" style="background: #000;">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-fctabwt-content valcode-wrapper-shadow" style="background: #000;">
                     <p class="valcode-fctabwt-text" style="color: #fff;">This offer expires in:</p>
                     <div class="valcode-fctabwt-timer-container" style="color: #fff;">
                         <span class="valcode-fctabwt-box">
@@ -101,10 +104,11 @@
         <!-- start of fourth piece  -->
         <!-- ============COUPON WITH OPT-IN FORM(GET IT)========== -->
 
-        <div class="notification-preview-coupon">
+        <div class="notification-preview-coupon" id="close">
             <div class="valcode-wrapper valcode-wrapper-rounded ">
                 <div class="valcode-cwof-get-content  valcode-wrapper-shadow">
-                    <button class="valcode-cwof-get-close"><img src="/images/close.png" alt=""></button>
+                    <button class="valcode-cwof-get-close" onclick="myFunction()"><img src="/images/close.png"
+                            alt=""></button>
                     <div class="valcode-cwof-get-imagebox">
                         <div class="valcode-cwof-get-bulbimage">
                             <img src="/images/bulb.png" alt="">
@@ -123,7 +127,7 @@
         <!-- end of fourth piece  -->
 
         <!-- start of fifth piece  -->
-         <!-- ===============COUPON WITH OPT-IN FORM(SUBSCRIBE)=============== -->
+        <!-- ===============COUPON WITH OPT-IN FORM(SUBSCRIBE)=============== -->
         <div class="notification-preview-coupon">
             <div class="valcode-wrapper valcode-wrapper-rounded ">
                 <div class="valcode-cwof-subscribe-content  valcode-wrapper-shadow">
@@ -151,12 +155,13 @@
         <!-- fifth piece ends here  -->
 
         <!-- sixth piece starts here  -->
-       
-     <!-- =============LIVE COUNTER ====================== -->
+
+        <!-- =============LIVE COUNTER ====================== -->
 
         <div class="notification-preview-coupon">
             <div class="valcode-wrapper valcode-wrapper-rounded ">
                 <div class="valcode-livecounter-content" style="border:1px solid #065f06;">
+                    <button class="valcode-livecounter-close"><img src="/images/close.png" alt=""></button>
                     <div class="valcode-livecounter-image">
                         <img src="/images/check.png" alt="check">
                     </div>
@@ -175,12 +180,15 @@
         <div class="notification-preview-coupon">
             <div class="valcode-wrapper valcode-wrapper-rounded ">
                 <div class="valcode-conversion_counter-content" style="border:1px solid #7b2cbf;">
+                    <button class="valcode-conversion_counter-close"><img src="/images/close.png" alt=""></button>
                     <div class="valcode-conversion_counter-image">
                         <img src="/images/discount.png" alt="discount">
                     </div>
                     <div class="valcode-conversion_counter-details">
-                        <p class="valcode-conversion_counter-text" ><span style="color:#7b2cbf; font-weight: 500;">79</span> people have
-                            already taken advantage of the <span style="color:#7b2cbf; font-weight: 500;">50%</span> discount on their dentist consultation</p>
+                        <p class="valcode-conversion_counter-text"><span
+                                style="color:#7b2cbf; font-weight: 500;">79</span> people have
+                            already taken advantage of the <span style="color:#7b2cbf; font-weight: 500;">50%</span>
+                            discount on their dentist consultation</p>
                         <div>
 
                             <a href="#" class="valcode-conversion_counter-link"
@@ -193,151 +201,199 @@
                 </div>
             </div>
         </div>
-<!-- /* seventh piece ends here  */ -->
+        <!-- /* seventh piece ends here  */ -->
 
- <!-- eight piece starts here  -->
- <!-- ========= YES/NO BAR ================ -->
- <div class="notification-preview-coupon">
-    <div class="valcode-wrapper valcode-wrapper-rounded ">
-        <div class="valcode-ynbar-content" style="border:1px solid red;">
-             <div class="valcode-ynbar-image">
-                 <img src="/images/sale.png" alt="sale">
-             </div>
-             <div class="valcode-ynbar-details" style="background: red;">
-             <h3 class="valcode-ynbar-title" style="color:#fff">GET 50% OFF THIS WEEK</h3>
-             <button style="background: #fff; color:#000" class="valcode-ynbar-button">SHOW ME ELIGIBLE PRODUCTS</button>
-             <button style="background: #fff; color:#000" class="valcode-ynbar-button">NO, I DON'T WANT DISCOUNTS</button>
+        <!-- eight piece starts here  -->
+        <!-- ========= YES/NO BAR ================ -->
+        <div class="notification-preview-coupon">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-ynbar-content" style="border:1px solid red;">
+                    <button class="valcode-ynbar-close"><img src="/images/close-2.png" alt=""></button>
+                    <div class="valcode-ynbar-image">
+                        <img src="/images/sale.png" alt="sale">
+                    </div>
+                    <div class="valcode-ynbar-details" style="background: red;">
+                        <h3 class="valcode-ynbar-title" style="color:#fff">GET 50% OFF THIS WEEK</h3>
+                        <button style="background: #fff; color:#000" class="valcode-ynbar-button">SHOW ME ELIGIBLE
+                            PRODUCTS</button>
+                        <button style="background: #fff; color:#000" class="valcode-ynbar-button">NO, I DON'T WANT
+                            DISCOUNTS</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- ninth piece starts here -->
-<!-- =========== COUNTDOWNTIMER=========================  -->
-<div class="notification-preview-coupon">
-    <div class="valcode-wrapper valcode-wrapper-rounded ">
-        <div class="valcode-countdowntimer-content">
-            <p class="valcode-countdowntimer-title"><span class="valcode-countdowntimer-bolt"><img src="/images/lightning.png" alt="lightning"></span>Limited time offer, Sales ends in</p>
-            <div class="valcode-countdowntimer-container">
-               <div class="valcode-countdowntimer-singlebox">
-                  <div class="valcode-countdowntimer-timebox">
-                    <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">0</span>
-                    <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
-                  </div>
-                  <p class="valcode-countdowntimer-period">Days</p>
-               </div>
-               <div class="valcode-countdowntimer-singlebox">
-                <div class="valcode-countdowntimer-timebox">
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">4</span>
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
+        <!-- ninth piece starts here -->
+        <!-- =========== COUNTDOWNTIMER=========================  -->
+        <div class="notification-preview-coupon">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-countdowntimer-content">
+                    <button class="valcode-countdowntimer-close"><img src="/images/close.png" alt=""></button>
+                    <p class="valcode-countdowntimer-title"><span class="valcode-countdowntimer-bolt"><img
+                                src="/images/lightning.png" alt="lightning"></span>Limited time offer, Sales ends in</p>
+                    <div class="valcode-countdowntimer-container">
+                        <div class="valcode-countdowntimer-singlebox">
+                            <div class="valcode-countdowntimer-timebox">
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">0</span>
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
+                            </div>
+                            <p class="valcode-countdowntimer-period">Days</p>
+                        </div>
+                        <div class="valcode-countdowntimer-singlebox">
+                            <div class="valcode-countdowntimer-timebox">
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">4</span>
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
+                            </div>
+                            <p class="valcode-countdowntimer-period">Hours</p>
+                        </div>
+                        <div class="valcode-countdowntimer-singlebox">
+                            <div class="valcode-countdowntimer-timebox">
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">5</span>
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">6</span>
+                            </div>
+                            <p class="valcode-countdowntimer-period">Minuites</p>
+                        </div>
+                        <div class="valcode-countdowntimer-singlebox">
+                            <div class="valcode-countdowntimer-timebox">
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">0</span>
+                                <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
+                            </div>
+                            <p class="valcode-countdowntimer-period">Seconds</p>
+                        </div>
+                    </div>
+                    <button class="valcode-countdowntimer-button" style="background: #000; color:#fff">Shop now</button>
+
                 </div>
-                <p class="valcode-countdowntimer-period">Hours</p>
-             </div>
-             <div class="valcode-countdowntimer-singlebox">
-                <div class="valcode-countdowntimer-timebox">
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">5</span>
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">6</span>
-                </div>
-                <p class="valcode-countdowntimer-period">Minuites</p>
-             </div>
-             <div class="valcode-countdowntimer-singlebox">
-                <div class="valcode-countdowntimer-timebox">
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">0</span>
-                  <span class="valcode-countdowntimer-time" style="color: #fff; background:blue">3</span>
-                </div>
-                <p class="valcode-countdowntimer-period">Seconds</p>
-             </div>
             </div>
-             <button class="valcode-countdowntimer-button" style="background: #000; color:#fff">Shop now</button>
-           
         </div>
-    </div>
-</div>
 
-<!-- ==================== SUPPORT BOX ================ -->
+        <!-- ==================== SUPPORT BOX ================ -->
 
-<div class="notification-preview-coupon">
-    <div class="valcode-wrapper valcode-wrapper-rounded ">
-        <div class="valcode-supportbox-content valcode-wrapper-shadow" style="background: #eae7e2;" >
-             <div class="valcode-supporbox-header" style="background: rgb(255,85,0);
+        <div class="notification-preview-coupon">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-supportbox-content valcode-wrapper-shadow" style="background: #eae7e2;">
+                    <button class="valcode-supportbox-close"><img src="/images/icons8-cancel-188.png" alt=""></button>
+                    <div class="valcode-supporbox-header" style="background: rgb(255,85,0);
              background: linear-gradient(61deg, rgba(255,85,0,1) 0%, rgba(177,73,48,1) 100%);">
-               <div class="valcode-supporbox-avatar">
-                 <img src="/images/user.png" alt="">
-               </div>
-               <p style="color: #fff;" class="valcode-supporbox-title">
-                Welcome to live chat!
-               </p>
-             </div>
-             <div class="valcode-supporbox-leftchat">
-                <div class="valcode-supporbox-leftchat-image">
-                    <img src="/images/woman.png" alt="avatar">
+                        <div class="valcode-supporbox-avatar">
+                            <img src="/images/user.png" alt="">
+                        </div>
+                        <p style="color: #fff;" class="valcode-supporbox-title">
+                            Welcome to live chat!
+                        </p>
+                    </div>
+                    <div class="valcode-supporbox-leftchat">
+                        <div class="valcode-supporbox-leftchat-image">
+                            <img src="/images/woman.png" alt="avatar">
+                        </div>
+                        <div class="valcode-supporbox-leftchat-chat" style="background:#fff275 ;">
+                            <p class="valcode-supporbox-leftchat-text">Hi, can i help you? Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Incidunt culpa reprehenderi</p>
+                        </div>
+                    </div>
+                    <div class="valcode-supporbox-rightchat">
+                        <div class="valcode-supporbox-rightchat-chat" style="background: #eff6ee;">
+                            <p class="valcode-supporbox-rightchat-text">Hi, can i help you? l</p>
+                        </div>
+                        <div class="valcode-supporbox-rightchat-image">
+                            <img src="/images/user2.png" alt="avatar">
+                        </div>
+                    </div>
+                    <div class="valcode-supporbox-footer" style="background: #fff;">
+                        <input type="text" class="valcode-supporbox-footer-input"
+                            placeholder="Please write your message">
+                        <div class="valcode-supporbox-footer-buttons">
+                            <button class="valcode-supporbox-footer-btn"><img
+                                    class="valcode-supporbox-footer-btn-image1" src="/images/smile.png"
+                                    alt="avater"></button>
+                            <button class="valcode-supporbox-footer-btn"><img
+                                    class="valcode-supporbox-footer-btn-image2" src="/images/send.png" alt=""></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="valcode-supporbox-leftchat-chat" style="background:#fff275 ;">
-                    <p class="valcode-supporbox-leftchat-text">Hi, can i help you? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt culpa reprehenderi</p>
-                </div>
-             </div>
-             <div class="valcode-supporbox-rightchat">
-                <div class="valcode-supporbox-rightchat-chat" style="background: #eff6ee;">
-                    <p class="valcode-supporbox-rightchat-text" >Hi, can i help you? l</p>
-                </div>
-                <div class="valcode-supporbox-rightchat-image">
-                    <img src="/images/user2.png" alt="avatar">
-                </div>
-             </div>
-             <div class="valcode-supporbox-footer" style="background: #fff;">
-                <input type="text" class="valcode-supporbox-footer-input" placeholder="Please write your message and press the send button" >
-                <div class="valcode-supporbox-footer-buttons">
-                    <button class="valcode-supporbox-footer-btn"><img class="valcode-supporbox-footer-btn-image1" src="/images/smile.png" alt="avater"></button>
-                    <button class="valcode-supporbox-footer-btn"><img class="valcode-supporbox-footer-btn-image2" src="/images/send.png" alt=""></button>
-                </div>
-             </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- ============== EVENT REGISTRATION WITH TIMER==============
+        <!-- ============== EVENT REGISTRATION WITH TIMER==============
 -->
-  
-<div class="notification-preview-coupon">
-    <div class="valcode-wrapper valcode-wrapper-rounded ">
-        <div class="valcode-erwt-content" style="background:  #970c0c;">
-                <h3 class="valcode-erwt-title" style="background:#fff; color:#d82a2a">FREE WEBINER</h3>
-                <p class="valcode-erwt-subtitle" style="color:#eae1e1 ;">Discover the 15 teeth cleaning solution that can make your teeth white in 30days</p>
-                <div class="valcode-erwt-videocontent">
-                   <img src="/images/book.jpg" alt="">
-                </div>
-                <div class="valcode-erwt-timer-container" style="color: #fff;">
-                    <span class="valcode-erwt-box">
-                        <h3 class="valcode-erwt-time" style="color: #fff;">00 </h3>
-                        <p class="valcode-erwt-span" style="color: #eee9e9;">Days</p>
-                    </span>
-                    <span class="valcode-erwt-time">:</span>
-                    <span class="valcode-erwt-box">
-                        <h3 class="valcode-erwt-time" style="color: #fff;">00</h3>
-                        <p class="valcode-erwt-span" style="color: #eee9e9;">Minuites</p>
-                    </span>
-                    <span class="valcode-erwt-time">:</span>
 
-                    <span class="valcode-erwt-box">
-                        <h3 class="valcode-erwt-time" style="color: #fff;">12</h3>
-                        <p class="valcode-erwt-span" style="color: #eee9e9;">Hours</p>
-                    </span>
-                    <span class="valcode-erwt-time">:</span>
+        <div class="notification-preview-coupon">
+            <div class="valcode-wrapper valcode-wrapper-rounded ">
+                <div class="valcode-erwt-content" style="background:  #970c0c;">
+                    <button class="valcode-erwt-close"><img src="/images/close-2.png" alt=""></button>
+                    <h3 class="valcode-erwt-title" style="background:#fff; color:#d82a2a">FREE WEBINER</h3>
+                    <p class="valcode-erwt-subtitle" style="color:#eae1e1 ;">Discover the 15 teeth cleaning solution
+                        that can make your teeth white in 30days</p>
+                    <div class="valcode-erwt-videocontent">
+                        <img src="/images/book.jpg" alt="">
+                    </div>
+                    <div class="valcode-erwt-timer-container" style="color: #fff;">
+                        <span class="valcode-erwt-box">
+                            <h3 class="valcode-erwt-time" style="color: #fff;">00 </h3>
+                            <p class="valcode-erwt-span" style="color: #eee9e9;">Days</p>
+                        </span>
+                        <span class="valcode-erwt-time">:</span>
+                        <span class="valcode-erwt-box">
+                            <h3 class="valcode-erwt-time" style="color: #fff;">00</h3>
+                            <p class="valcode-erwt-span" style="color: #eee9e9;">Minuites</p>
+                        </span>
+                        <span class="valcode-erwt-time">:</span>
 
-                    <span class="valcode-erwt-box">
-                        <h3 class="valcode-erwt-time" style="color: #fff;">00</h3>
-                        <p class="valcode-erwt-span" style="color: #eee9e9;">Seconds</p>
-                    </span>
+                        <span class="valcode-erwt-box">
+                            <h3 class="valcode-erwt-time" style="color: #fff;">12</h3>
+                            <p class="valcode-erwt-span" style="color: #eee9e9;">Hours</p>
+                        </span>
+                        <span class="valcode-erwt-time">:</span>
+
+                        <span class="valcode-erwt-box">
+                            <h3 class="valcode-erwt-time" style="color: #fff;">00</h3>
+                            <p class="valcode-erwt-span" style="color: #eee9e9;">Seconds</p>
+                        </span>
+                    </div>
+                    <div class="valcode-erwt-footer">
+                        <input type="text" class="valcode-erwt-footer-input">
+                        <button class="valcode-erwt-footer-btn" style="background: #fcfc0b; color:#000;">SIGN
+                            UP</button>
+                    </div>
+                    <p class="valcode-erwt-footer-text" style="color:#eee9e9">Powered by konata</p>
                 </div>
-                <div class="valcode-erwt-footer">
-                    <input type="text" class="valcode-erwt-footer-input">
-                    <button class="valcode-erwt-footer-btn" style="background: #fcfc0b; color:#000;">SIGN UP</button>
-                </div>
-                <p class="valcode-erwt-footer-text" style="color:#eee9e9">Powered by konata</p>
+            </div>
         </div>
-    </div>
-</div>
-    </center>
+
+        <!-- ============================ LATEST CONVERSATION (REAL OR FAKE) STARTS HERE============================ -->
+        <center>
+            <div class="notification-preview-coupon">
+                <div class="valcode-wrapper valcode-wrapper-rounded">
+                    <div class="valcode-latest-converse-content">
+                        <button class="valcode-latest-converse-close"><img src="/images/close.png" alt=""></button>
+                        <div class="valcode-latest-converse-profile-wrapper" style="border: 2px solid orangered;">
+                            <img src="/images/avatar.png" alt="" class="valcode-latest-converse-profile-img">
+                        </div>
+
+                        <div class="valcode-latest-converse-profile-title-wrapper" style="border: 2px solid orangered;">
+                            <h4 class="valcode-latest-converse-profile-title-header">
+                                Donatus from Nigeria
+                            </h4>
+                            <h6 class="valcode-latest-converse-profile-title-appointment">Booked an appointment</h6>
+                            <div class="valcode-latest-converse-profile-title-time">
+                                <p class="valcode-latest-converse-profile-title-time-one">
+                                    10 minutes ago
+                                </p>
+                                <p class="valcode-latest-converse-profile-title-time-verified"
+                                    style="color: orangered;">verified by konvata</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <!-- ============================ LATEST CONVERSATION (REAL OR FAKE) ENDS  HERE============================ -->
+
+
+
+
+        <script src="/script.js"></script>
 </body>
 
 </html>

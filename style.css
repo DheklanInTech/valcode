@@ -1,14 +1,8 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
 
 .notification-preview-coupon {
     width: 100% !important;
@@ -16,10 +10,15 @@ body {
 
 .valcode-wrapper {
     margin: 2rem 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
 }
 
 .valcode-wrapper-shadow {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 
 /* =================COUPON DISPLAY WITH COPY BUTTON============  */
@@ -29,12 +28,30 @@ body {
     justify-content: center !important;
     width: 460px !important;
     max-width: 460px !important;
+    position: relative !important;
 }
 
 .valcode-cdwcb-image {
     flex: 1 !important;
     padding-top: 1rem !important;
 
+}
+
+.valcode-cdwcd-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 10px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-cdwcd-close img {
+    width: 10px !important;
+    height: 10px !important;
 }
 
 .valcode-cdwcb-image img {
@@ -70,7 +87,7 @@ body {
     font-size: 16px !important;
     margin: 0 !important;
     padding: 0.5rem 0 !important;
-    font-weight: 600;
+    font-weight: 600 !important;
 
 }
 
@@ -93,6 +110,17 @@ body {
         font-style: italic !important;
         font-size: 5px !important;
         padding: 0.5rem 0 !important;
+    }
+
+    .valcode-cdwcd-close {
+        width: 20px !important;
+        height: 20px !important;
+        right: 0px !important;
+    }
+
+    .valcode-cdwcd-close img {
+        width: 8px !important;
+        height: 8px !important;
     }
 
     .valcode-cdwcd-copy-button {
@@ -141,8 +169,8 @@ body {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 100% !important;
-    gap: 30px !important;
+    width: 400px !important;
+    gap: 10px !important;
     padding: 0.5rem 1rem !important;
 }
 
@@ -150,50 +178,28 @@ body {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 20px !important;
+    gap: 10px !important;
 }
 
 .valcode-fctab-details img {
-    height: 40px !important;
+    height: 20px !important;
+}
+
+.valcode-fctab-text {
+    font-size: 12px !important;
 }
 
 .valcode-fctab-button {
-    padding: 0.5rem 1rem !important;
+    padding: 0.3rem 0.5rem !important;
     cursor: pointer !important;
     border: none !important;
     outline: none !important;
+    font-size: 12px !important;
 }
 
 @media(max-width: 950px) {
     .valcode-fctab-text {
-        font-size: 10px !important;
-    }
-
-    .valcode-fctab-details img {
-        height: 20px !important;
-    }
-
-    .valcode-fctab-button {
-        padding: 0.2rem 0.5rem !important;
-        cursor: pointer !important;
-        border: none !important;
-        outline: none !important;
-        font-size: 10px !important;
-    }
-
-    .valcode-fctab-content {
-        gap: 20px !important;
-        padding: 0.3rem 1rem !important;
-    }
-
-    .valcode-fctab-details {
-        gap: 10px !important;
-    }
-}
-
-@media(max-width: 300px) {
-    .valcode-fctab-text {
-        font-size: 5px !important;
+        font-size: 6px !important;
     }
 
     .valcode-fctab-details img {
@@ -201,7 +207,7 @@ body {
     }
 
     .valcode-fctab-button {
-        padding: 0.3rem 0.3rem !important;
+        padding: 0.2rem 0.3rem !important;
         cursor: pointer !important;
         border: none !important;
         outline: none !important;
@@ -209,28 +215,39 @@ body {
     }
 
     .valcode-fctab-content {
-        gap: 5px !important;
-        padding: 0.3rem 1rem !important;
+        gap: 10px !important;
+        padding: 0.3rem 0.6rem !important;
+        width: 200px !important;
     }
 
     .valcode-fctab-details {
-        gap: 5px !important;
+        gap: 10px !important;
     }
 }
 
+
+
 /* <!-- end of second  piece --> */
 
-/* third piece starts here  */
+
 /* ========================FULL CALL TO ACTION BAR WITH TIMER =============================  */
 
 .valcode-fctabwt-content {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 30px !important;
-    width: 100% !important;
-    padding: 0.2rem 1rem !important;
+    gap: 10px !important;
+    width: 450px !important;
+    padding: 0.3rem 1rem !important;
 
+}
+
+.valcode-fctabwt-text {
+    font-size: 12px !important;
+}
+
+.valcode-fctabwt-time {
+    font-size: 12px !important;
 }
 
 .valcode-fctabwt-timer-container {
@@ -241,36 +258,37 @@ body {
 }
 
 .valcode-fctabwt-span {
-    font-size: 14px !important;
+    font-size: 10px !important;
 }
 
 .valcode-fctabwt-button {
-    padding: 0.5rem 1rem !important;
+    padding: 0.5rem 0.5rem !important;
     cursor: pointer !important;
     border: none !important;
     outline: none !important;
-    margin-left: 2rem !important;
+    margin-left: 1rem !important;
     font-weight: 600 !important;
+    font-size: 10px !important;
 }
 
 @media(max-width:950px) {
     .valcode-fctabwt-content {
-        gap: 10px !important;
-        width: 100% !important;
+        gap: 5px !important;
+        width: 300px !important;
         padding: 0.2rem 1rem !important;
 
     }
 
     .valcode-fctabwt-time {
-        font-size: 10px !important;
-    }
-
-    .valcode-fctabwt-span {
         font-size: 8px !important;
     }
 
+    .valcode-fctabwt-span {
+        font-size: 5px !important;
+    }
+
     .valcode-fctabwt-text {
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
 
     .valcode-fctabwt-timer-container {
@@ -324,7 +342,7 @@ body {
     max-width: 300px !important;
     border-radius: 10px !important;
     position: relative !important;
-    padding: 1rem 0;
+    padding: 1rem 0 !important;
 }
 
 .valcode-cwof-get-imagebox {
@@ -381,6 +399,7 @@ body {
     outline: none !important;
     position: absolute !important;
     right: 10px !important;
+    top: 0 !important;
     cursor: pointer !important;
     z-index: 1 !important;
 }
@@ -535,60 +554,85 @@ body {
 /* <!-- =============LIVE COUNTER ====================== --> */
 
 .valcode-livecounter-content {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 320px;
-    gap: 10px;
-    padding: 1rem 1rem;
-    border-radius: 5px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    width: 320px !important;
+    gap: 10px !important;
+    padding: 1rem 1rem !important;
+    border-radius: 5px !important;
+    position: relative !important;
+}
+
+.valcode-livecounter-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 10px !important;
+    top: 2px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-livecounter-close img {
+    width: 8px !important;
+    height: 8px !important;
 }
 
 .valcode-livecounter-image {
-    width: 50px;
-    height: 50px;
+    width: 50px !important;
+    height: 50px !important;
 }
 
+
 .valcode-livecounter-image img {
-    width: 50px;
-    height: 50px;
+    width: 50px !important;
+    height: 50px !important;
 }
 
 .valcode-livecounter-title {
-    font-size: 14px;
-    font-weight: 500;
-    text-align: start;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-align: start !important;
 }
 
 .valcode-livecounter-subtitle {
-    font-size: 11px;
-    text-align: start;
+    font-size: 11px !important;
+    text-align: start !important;
 }
 
 @media(max-width:950px) {
     .valcode-livecounter-content {
-        width: 220px;
-        gap: 10px;
-        padding: 1rem 0.5rem;
-        border-radius: 5px;
+        width: 220px !important;
+        gap: 10px !important;
+        padding: 1rem 0.5rem !important;
+        border-radius: 5px !important;
+    }
+
+    .valcode-livecounter-close {
+        right: 0 !important;
+        top: 0 !important;
     }
 
     .valcode-livecounter-image {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .valcode-livecounter-image img {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .valcode-livecounter-title {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     .valcode-livecounter-subtitle {
-        font-size: 8px;
+        font-size: 8px !important;
 
     }
 }
@@ -604,8 +648,27 @@ body {
     align-items: flex-start !important;
     width: 320px !important;
     gap: 10px !important;
-    padding: 0.5rem 1rem !important;
+    padding: 0.5rem 0.8rem !important;
     border-radius: 5px !important;
+    position: relative !important;
+}
+
+.valcode-conversion_counter-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-conversion_counter-close img {
+    width: 8px !important;
+    height: 8px !important;
 }
 
 .valcode-conversion_counter-details {
@@ -660,13 +723,13 @@ body {
     }
 
     .valcode-conversion_counter-image {
-        width: 30px !important;
-        height: 30px !important;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .valcode-conversion_counter-image img {
-        width: 30px !important;
-        height: 30px !important;
+        width: 20px !important;
+        height: 20px !important;
     }
 
     .valcode-conversion_counter-flash {
@@ -704,6 +767,25 @@ body {
     width: 250px !important;
     gap: 10px !important;
     border-radius: 5px !important;
+    position: relative !important;
+}
+
+.valcode-ynbar-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-ynbar-close img {
+    width: 10px !important;
+    height: 10px !important;
 }
 
 .valcode-ynbar-image {
@@ -766,28 +848,47 @@ body {
     justify-content: center !important;
     flex-direction: column !important;
     align-items: center !important;
-    width: 300px !important;
+    width: 250px !important;
     border-radius: 5px !important;
+    position: relative;
 }
 
 .valcode-countdowntimer-title {
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: 600 !important;
     word-spacing: 0.2rem !important;
+}
+
+.valcode-countdowntimer-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: -40px !important;
+    top: -20px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-countdowntimer-close img {
+    width: 8px !important;
+    height: 8px !important;
 }
 
 .valcode-countdowntimer-container {
     display: flex !important;
     justify-content: space-around !important;
     align-items: center !important;
-    gap: 10px !important;
+    gap: 8px !important;
     padding: 1rem 0 !important;
 }
 
 .valcode-countdowntimer-time {
-    height: 40px !important;
-    width: 30px !important;
-    font-size: 20px !important;
+    height: 20px !important;
+    width: 20px !important;
+    font-size: 16px !important;
     padding: 0.5rem 0.5rem !important;
     border-radius: 4px !important;
     font-weight: 600 !important;
@@ -830,22 +931,23 @@ body {
     }
 
     .valcode-countdowntimer-title {
-        font-size: 12px !important;
+        font-size: 10px !important;
         word-spacing: 0.1rem !important;
         text-align: center !important;
     }
 
     .valcode-countdowntimer-container {
         gap: 8px !important;
-        padding: 0.8rem 0 !important;
+        padding: 0.6rem 0 !important;
     }
 
     .valcode-countdowntimer-time {
-        height: 25px !important;
-        width: 20px !important;
+        height: 10px !important;
+        width: 10px !important;
         font-size: 10px !important;
         padding: 0.5rem 0.5rem !important;
         border-radius: 1px !important;
+        font-weight: 600 !important;
     }
 
     .valcode-countdowntimer-period {
@@ -861,287 +963,501 @@ body {
 
 /* =========================SUPPORT BOX====================  */
 
-.valcode-supportbox-content{
+.valcode-supportbox-content {
     width: 300px !important;
     border-radius: 5px !important;
-    height: 380px!important;
-    max-width: fit-content!important;
-    position: relative!important;
-    overflow: hidden!important;
-}
-.valcode-supporbox-header{
-    width: 100%!important;
-    display: flex!important;
-    justify-content: start!important;
-    align-items: center!important;
-    gap: 10px!important;
-    padding: 0.5rem 1rem!important;
-}
-.valcode-supporbox-avatar{
-    height: 40px!important;
-    width: 40px!important;
-}
-.valcode-supporbox-avatar img{
-    height: 40px!important;
-    width: 40px!important;
-}
-.valcode-supporbox-title{
-    font-size: 14px!important;
-}
-.valcode-supporbox-leftchat{
-    display: flex!important;
-    justify-content: start!important;
-    align-items: center!important;
-    gap: 10px!important;
-    margin: 1rem  0 0.5rem 0.5rem!important;
-}
-.valcode-supporbox-leftchat-image{
-    height: 30px!important;
-    width: 30px!important;
-}
-.valcode-supporbox-leftchat-image img{
-    height: 30px!important;
-    width: 30px!important;
-}
-.valcode-supporbox-leftchat-text{
-    font-size: 12px!important;
-}
-.valcode-supporbox-leftchat-chat{
-    padding: 0.7rem 0.7rem!important;
-    max-width: 65%!important;
-    text-align: start!important;
-    border-radius: 20px!important; 
-}
-.valcode-supporbox-rightchat-chat{
-    padding: 0.7rem 0.7rem!important;
-    max-width: 65%!important;
-    text-align: end!important;
-    border-radius: 20px!important; 
-}
-.valcode-supporbox-rightchat{
-    display: flex!important;
-    justify-content: end!important;
-    align-items: center!important;
-    gap: 10px!important;
-    margin: 1rem  0.5rem 0.5rem 0!important;
-}
-.valcode-supporbox-rightchat-image{
-    height: 30px!important;
-    width: 30px!important;
-}
-.valcode-supporbox-rightchat-image img{
-    height: 30px!important;
-    width: 30px!important; 
-}
-.valcode-supporbox-rightchat-text{
-    font-size: 12px!important;
-}
-.valcode-supporbox-footer{
-    position: absolute!important;
-    bottom: 0!important;
-    display: flex!important;
-    justify-content: space-between!important;
-    align-items: center!important;
-    width: 100%!important;
-    padding: 0.5rem 1rem!important;
-}
-.valcode-supporbox-footer-btn{
-    height: 30px!important;
-    width: 30px!important;
-    border: none!important;
-    outline: none!important;
-    background: transparent!important;
-    cursor: pointer!important;
-}
-.valcode-supporbox-footer-input{
-    width: 100%!important;
-    font-size: 8px!important;
-    border: none!important;
-    outline: none!important;
-    padding: 0.3rem 0.2rem!important;
-}
-.valcode-supporbox-footer-buttons{
-    display: flex!important;
-    justify-content: space-around!important;
-    align-items: center!important;
-}
-.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1{
-    height: 18px!important;
-    width: 18px!important; 
-}
-.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2{
-    height: 25px!important;
-    width: 25px!important; 
+    height: 380px !important;
+    max-width: fit-content !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
 
-@media(max-width:950px){
-    
-.valcode-supportbox-content{
-    width:200px !important;
-    height: 280px!important;
+.valcode-supporbox-header {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 0.5rem 1rem !important;
 }
 
-.valcode-supporbox-avatar{
-    height: 30px!important;
-    width: 30px!important;
-}
-.valcode-supporbox-avatar img{
-    height: 30px!important;
-    width: 30px!important;
-}
-.valcode-supporbox-title{
-    font-size: 12px!important;
-}
-
-.valcode-supporbox-leftchat-image{
-    height: 25px!important;
-    width: 25px!important;
-}
-.valcode-supporbox-leftchat-image img{
-    height: 25px!important;
-    width: 25px!important;
-}
-.valcode-supporbox-leftchat-text{
-    font-size: 10px!important;
+.valcode-supportbox-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
 }
 
-.valcode-supporbox-rightchat-image{
-    height: 25px!important;
-    width: 25px!important;
-}
-.valcode-supporbox-rightchat-image img{
-    height: 25px!important;
-    width: 25px!important; 
-}
-.valcode-supporbox-rightchat-text{
-    font-size: 10px!important;
-}
-.valcode-supporbox-footer{
-    padding: 0.5rem 0.5rem!important;
-}
-.valcode-supporbox-footer-btn{
-    height: 25px!important;
-    width: 25px!important;
-
+.valcode-supportbox-close img {
+    width: 15px !important;
+    height: 15px !important;
 }
 
-.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1{
-    height: 16px!important;
-    width: 16px!important; 
+.valcode-supporbox-avatar {
+    height: 40px !important;
+    width: 40px !important;
 }
-.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2{
-    height: 22px!important;
-    width: 22px!important; 
+
+.valcode-supporbox-avatar img {
+    height: 40px !important;
+    width: 40px !important;
 }
+
+.valcode-supporbox-title {
+    font-size: 14px !important;
+}
+
+.valcode-supporbox-leftchat {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 1rem 0 0.5rem 0.5rem !important;
+}
+
+.valcode-supporbox-leftchat-image {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.valcode-supporbox-leftchat-image img {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.valcode-supporbox-leftchat-text {
+    font-size: 12px !important;
+}
+
+.valcode-supporbox-leftchat-chat {
+    padding: 0.7rem 0.7rem !important;
+    max-width: 65% !important;
+    text-align: start !important;
+    border-radius: 20px !important;
+}
+
+.valcode-supporbox-rightchat-chat {
+    padding: 0.7rem 0.7rem !important;
+    max-width: 65% !important;
+    text-align: end !important;
+    border-radius: 20px !important;
+}
+
+.valcode-supporbox-rightchat {
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 1rem 0.5rem 0.5rem 0 !important;
+}
+
+.valcode-supporbox-rightchat-image {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.valcode-supporbox-rightchat-image img {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.valcode-supporbox-rightchat-text {
+    font-size: 12px !important;
+}
+
+.valcode-supporbox-footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.valcode-supporbox-footer-btn {
+    height: 30px !important;
+    width: 30px !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    cursor: pointer !important;
+}
+
+.valcode-supporbox-footer-input {
+    width: 70% !important;
+    font-size: 8px !important;
+    border: none !important;
+    outline: none !important;
+    padding: 0.3rem 0.2rem !important;
+}
+
+.valcode-supporbox-footer-buttons {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    width: 20% !important;
+}
+
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1 {
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2 {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+@media(max-width:950px) {
+
+    .valcode-supportbox-content {
+        width: 200px !important;
+        height: 280px !important;
+    }
+
+    .valcode-supporbox-avatar {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-supporbox-footer-buttons {
+        gap: 5px !important;
+    }
+
+    .valcode-supporbox-avatar img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-supporbox-title {
+        font-size: 12px !important;
+    }
+
+    .valcode-supporbox-leftchat-image {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-supporbox-leftchat-image img {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-supporbox-leftchat-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-supporbox-rightchat-image {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-supporbox-rightchat-image img {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-supporbox-rightchat-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-supporbox-footer {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    .valcode-supporbox-footer-btn {
+        height: 25px !important;
+        width: 25px !important;
+
+    }
+
+    .valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image1 {
+        height: 16px !important;
+        width: 16px !important;
+    }
+
+    .valcode-supporbox-footer-btn .valcode-supporbox-footer-btn-image2 {
+        height: 22px !important;
+        width: 22px !important;
+    }
 
 }
 
 
 /* ============ EVENT REGISTRATION WITH TIMER ====  */
-.valcode-erwt-content{
+.valcode-erwt-content {
     width: 300px !important;
     border-radius: 5px !important;
-    max-width: fit-content!important;
+    max-width: fit-content !important;
     padding: 1rem 1rem !important;
+    position: relative !important;
 }
-.valcode-erwt-title{
-    width: 60%!important;
-    font-weight: 800!important;
-    font-size: 16px!important;
-    padding: 0.3rem 0!important;
-    border-radius: 5px!important;
+
+.valcode-erwt-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
 }
-.valcode-erwt-subtitle{
-    font-size: 12px!important;
-    text-align: center!important;
-    padding: 1rem 0.5rem!important;
+
+.valcode-erwt-close img {
+    width: 15px !important;
+    height: 15px !important;
 }
-.valcode-erwt-videocontent{
-    width: 250px!important;
-    height: 150px!important;
+
+.valcode-erwt-title {
+    width: 60% !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    padding: 0.3rem 0 !important;
+    border-radius: 5px !important;
 }
-.valcode-erwt-videocontent img{
-    width: 250px!important;
-    height: 150px!important;
+
+.valcode-erwt-subtitle {
+    font-size: 12px !important;
+    text-align: center !important;
+    padding: 1rem 0.5rem !important;
 }
+
+.valcode-erwt-videocontent {
+    width: 250px !important;
+    height: 150px !important;
+    object-fit: contain !important;
+}
+
+.valcode-erwt-videocontent img {
+    width: 250px !important;
+    height: 150px !important;
+}
+
 .valcode-erwt-timer-container {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
     gap: 6px !important;
-    padding: 1rem 0!important;
+    padding: 1rem 0 !important;
 }
-.valcode-erwt-time{
-    font-size: 16px!important;
-    font-weight: 600!important;
+
+.valcode-erwt-time {
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }
 
 .valcode-erwt-span {
     font-size: 10px !important;
 }
-.valcode-erwt-footer-input{
-    border:none!important;
-    outline: none!important;
-    padding: 0.5rem 0.5rem!important;
-    width: 68%!important;
-    border-radius: 5px!important;
+
+.valcode-erwt-footer-input {
+    border: none !important;
+    outline: none !important;
+    padding: 0.5rem 0.5rem !important;
+    width: 60% !important;
+    border-radius: 5px !important;
 }
-.valcode-erwt-footer-btn{
-    border:none!important;
-    outline: none!important;
-    padding: 0.5rem 0!important;
-    width: 28%!important;
-    border-radius: 5px!important; 
-    font-family: inherit!important;
-    font-weight: 600!important;
+
+.valcode-erwt-footer-btn {
+    border: none !important;
+    outline: none !important;
+    padding: 0.5rem 0 !important;
+    width: 28% !important;
+    border-radius: 5px !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
 }
-.valcode-erwt-footer-text{
-    font-size: 8px!important;
-    margin-top: 0.5rem!important;
+
+.valcode-erwt-footer-text {
+    font-size: 8px !important;
+    margin-top: 0.5rem !important;
 }
-@media(max-width:950px){
-    .valcode-erwt-content{
+
+@media(max-width:950px) {
+    .valcode-erwt-content {
         width: 200px !important;
     }
-    .valcode-erwt-title{
-        width: 65%!important;
-        font-size: 14px!important;
+
+    .valcode-erwt-title {
+        width: 65% !important;
+        font-size: 14px !important;
     }
-    .valcode-erwt-subtitle{
-        font-size: 8px!important;
-        text-align: center!important;
-        padding: 1rem 0.5rem!important;
+
+    .valcode-erwt-subtitle {
+        font-size: 8px !important;
+        text-align: center !important;
+        padding: 1rem 0.5rem !important;
     }
-    .valcode-erwt-videocontent{
-        width: 150px!important;
-        height: 100px!important;
-        max-width: fit-content!important;
-        max-height: fit-content!important;
+
+    .valcode-erwt-videocontent {
+        width: 150px !important;
+        height: 100px !important;
+        max-width: fit-content !important;
+        max-height: fit-content !important;
     }
-    .valcode-erwt-videocontent img{
-        width: 150px!important;
-        height: 100px!important;
+
+    .valcode-erwt-videocontent img {
+        width: 150px !important;
+        height: 100px !important;
     }
+
     .valcode-erwt-timer-container {
         display: flex !important;
         justify-content: center !important;
         align-items: flex-start !important;
         gap: 1px !important;
-        padding: 1rem 0!important;
+        padding: 1rem 0 !important;
     }
-    .valcode-erwt-time{
-        font-size: 14px!important;
+
+    .valcode-erwt-time {
+        font-size: 14px !important;
     }
-    
+
     .valcode-erwt-span {
         font-size: 8px !important;
     }
-    .valcode-erwt-footer-input{
+
+    .valcode-erwt-footer-input {
         font-size: 10px !important;
 
     }
-    .valcode-erwt-footer-btn{
+
+    .valcode-erwt-footer-btn {
         font-size: 10px !important;
+
     }
-  
+
 }
+
+/* ================================LATEST CONVERSATION STARTS HERE ===================*/
+
+
+.valcode-latest-converse-content {
+    width: fit-content !important;
+    max-width: fit-content !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+}
+
+.valcode-latest-converse-profile-wrapper {
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0.7rem 0.5rem !important;
+
+}
+
+.valcode-latest-converse-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-latest-converse-close img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-latest-converse-profile-img {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.valcode-latest-converse-profile-title-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 5px !important;
+}
+
+.valcode-latest-converse-profile-title-header {
+    font-size: 12px !important;
+    font-weight: bolder !important;
+}
+
+.valcode-latest-converse-profile-title-appointment {
+    padding: 0.5rem 0 !important;
+    font-weight: 500 !important;
+}
+
+.valcode-latest-converse-profile-title-time {
+    display: flex !important;
+    align-items: center;
+    gap: 2rem !important;
+    font-size: 10px;
+}
+
+.valcode-latest-converse-profile-title-time-verified {
+    font-weight: bold !important;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .valcode-latest-converse-content {
+        gap: 1.5px !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .valcode-latest-converse-profile-wrapper {
+        width: 2rem !important;
+    }
+
+    .valcode-latest-converse-close {
+        right: -5px !important;
+        top: -6px !important;
+
+    }
+
+    .valcode-latest-converse-close img {
+        width: 6px !important;
+        height: 6px !important;
+    }
+
+    .valcode-latest-converse-profile-img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+
+    .valcode-latest-converse-profile-title-wrapper {
+        padding: .1rem 0.2rem !important;
+    }
+
+    .valcode-latest-converse-profile-title-header {
+        font-size: 10px !important;
+        font-weight: bolder !important;
+    }
+
+    .valcode-latest-converse-profile-title-appointment {
+        padding: 0.5rem 0 !important;
+        font-size: 8px !important;
+    }
+
+    .valcode-latest-converse-profile-title-time {
+        gap: .4rem !important;
+        font-size: 8px !important;
+    }
+}
+
+/* ================================LATEST CONVERSATION ENDS HERE================ */
