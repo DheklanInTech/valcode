@@ -1,9 +1,3 @@
-* {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-
 .notification-preview-coupon {
     width: 100% !important;
 }
@@ -13,8 +7,7 @@
     font-family: 'Roboto', sans-serif !important;
     box-sizing: border-box !important;
     padding: 0 !important;
-    margin: 0 !important;
-
+    margin: 2rem !important;
 }
 
 .valcode-wrapper-shadow {
@@ -26,15 +19,24 @@
 .valcode-cdwcb-content {
     display: flex !important;
     justify-content: center !important;
-    width: 460px !important;
-    max-width: 460px !important;
+    width: 450px !important;
+    max-width: 450px !important;
     position: relative !important;
+    border-radius: 5px !important;
 }
 
 .valcode-cdwcb-image {
     flex: 1 !important;
-    padding-top: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
 
+}
+
+.valcode-cdwcb-image .valcode-cdwcb-image-img {
+    width: 60% !important;
+    height: 60% !important;
 }
 
 .valcode-cdwcd-close {
@@ -49,37 +51,34 @@
     z-index: 1 !important;
 }
 
-.valcode-cdwcd-close img {
+.valcode-cdwcd-close .valcode-cdwcd-close-img {
     width: 10px !important;
     height: 10px !important;
 }
 
-.valcode-cdwcb-image img {
-    width: 100px !important;
 
-}
 
 .valcode-cdwcb-details {
     flex: 1.5 !important;
     text-align: center !important;
-    padding: 1rem 0 !important;
+    padding: 0.5rem 0 !important;
 }
 
 .valcode-cdwcb-title {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
 }
 
 .valcode-cdwcb-subtitle {
     font-size: 14px !important;
-    padding: 1rem 0 !important;
+    padding: 0.3rem 0 !important;
     font-weight: 600 !important;
 
 }
 
 .valcode-cdwcb-coupon-code-container {
     margin: 0 auto !important;
-    border-radius: 10px !important;
+    border-radius: 5px !important;
     width: 60% !important;
 }
 
@@ -92,11 +91,13 @@
 }
 
 .valcode-cdwcd-copy-button {
-    border-radius: 10px !important;
-    padding: 0.5rem 1.3rem !important;
+    border-radius: 5px !important;
+    padding: 0.5rem 0 !important;
     margin-top: 1rem !important;
     cursor: pointer !important;
     font-size: 14px !important;
+    width: 60% !important;
+
 }
 
 .valcode-cdwcd-checkout {
@@ -106,63 +107,74 @@
 }
 
 @media(max-width: 950px) {
-    .valcode-cdwcd-checkout {
-        font-style: italic !important;
-        font-size: 5px !important;
-        padding: 0.5rem 0 !important;
+
+    .valcode-cdwcb-content {
+        width: 250px !important;
+        max-width: 250px !important;
+
     }
 
     .valcode-cdwcd-close {
-        width: 20px !important;
-        height: 20px !important;
-        right: 0px !important;
+        position: absolute !important;
+        right: 0 !important;
+        top: 0 !important;
+        cursor: pointer !important;
+        z-index: 1 !important;
     }
 
-    .valcode-cdwcd-close img {
-        width: 8px !important;
-        height: 8px !important;
+    .valcode-cdwcb-image .valcode-cdwcb-image-img {
+        width: 60% !important;
+        height: 50% !important;
     }
 
-    .valcode-cdwcd-copy-button {
-        padding: 0.2rem 1rem !important;
-        margin-top: 0.5rem !important;
-        font-size: 5px !important;
+
+
+    .valcode-cdwcd-close .valcode-cdwcd-close-img {
+        width: 6px !important;
+        height: 6px !important;
     }
 
-    .valcode-cdwcd-coupon-code {
-        font-size: 8px !important;
-        padding: 0.2rem 0 !important;
 
+
+    .valcode-cdwcb-details {
+        padding: 0.3rem 0.3rem !important;
     }
 
     .valcode-cdwcb-title {
-        font-size: 8px !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
     }
 
     .valcode-cdwcb-subtitle {
+        font-size: 10px !important;
+        padding: 0.3rem 0 !important;
+        font-weight: 600 !important;
+
+    }
+
+
+    .valcode-cdwcd-coupon-code {
+        font-size: 10px !important;
+        padding: 0.4rem 0 !important;
+
+
+    }
+
+    .valcode-cdwcd-copy-button {
+        padding: 0.3rem 0 !important;
+        margin-top: 1rem !important;
         font-size: 8px !important;
-        padding: 0.5rem 0 !important;
+        width: 60% !important;
 
     }
 
-    .valcode-cdwcb-content {
-        width: 200px !important;
-        max-width: 200px !important;
-    }
-
-    .valcode-cdwcb-image img {
-        width: 50px !important;
-        height: 70px !important;
-    }
-
-    .valcode-cdwcb-coupon-code-container {
-        border-radius: 5px !important;
+    .valcode-cdwcd-checkout {
+        font-size: 8px !important;
+        padding: 0.1rem 0 !important;
     }
 }
 
-/* end of first  */
 
-/* second starts here  */
 /* <!-- ========== FULL CALL TO ACTION BAR ================== --> */
 
 .valcode-fctab-content {
@@ -171,7 +183,7 @@
     align-items: center !important;
     width: 400px !important;
     gap: 10px !important;
-    padding: 0.5rem 1rem !important;
+    padding: 0.1rem 1rem !important;
 }
 
 .valcode-fctab-details {
@@ -181,7 +193,7 @@
     gap: 10px !important;
 }
 
-.valcode-fctab-details img {
+.valcode-fctab-details .valcode-fctab-image {
     height: 20px !important;
 }
 
@@ -190,19 +202,21 @@
 }
 
 .valcode-fctab-button {
-    padding: 0.3rem 0.5rem !important;
+    padding: 0.2rem 0.5rem !important;
     cursor: pointer !important;
     border: none !important;
     outline: none !important;
     font-size: 12px !important;
+    border-radius: 2px !important;
 }
 
 @media(max-width: 950px) {
     .valcode-fctab-text {
-        font-size: 6px !important;
+        font-size: 8px !important;
     }
 
-    .valcode-fctab-details img {
+
+    .valcode-fctab-details .valcode-fctab-image {
         height: 10px !important;
     }
 
@@ -215,19 +229,17 @@
     }
 
     .valcode-fctab-content {
-        gap: 10px !important;
-        padding: 0.3rem 0.6rem !important;
-        width: 200px !important;
+        gap: 4px !important;
+        padding: 0.2rem 0.3rem !important;
+        width: 220px !important;
     }
 
     .valcode-fctab-details {
-        gap: 10px !important;
+        gap: 4px !important;
     }
 }
 
 
-
-/* <!-- end of second  piece --> */
 
 
 /* ========================FULL CALL TO ACTION BAR WITH TIMER =============================  */
@@ -238,12 +250,18 @@
     align-items: center !important;
     gap: 10px !important;
     width: 450px !important;
-    padding: 0.3rem 1rem !important;
+    padding: 0.3rem 0.3rem !important;
 
 }
 
 .valcode-fctabwt-text {
     font-size: 12px !important;
+}
+
+.valcode-fctabwt-box {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
 }
 
 .valcode-fctabwt-time {
@@ -253,7 +271,7 @@
 .valcode-fctabwt-timer-container {
     display: flex !important;
     justify-content: center !important;
-    align-items: flex-start !important;
+    align-items: center !important;
     gap: 10px !important;
 }
 
@@ -274,8 +292,8 @@
 @media(max-width:950px) {
     .valcode-fctabwt-content {
         gap: 5px !important;
-        width: 300px !important;
-        padding: 0.2rem 1rem !important;
+        width: 250px !important;
+        padding: 0.2rem 0.5rem !important;
 
     }
 
@@ -296,41 +314,11 @@
     }
 
     .valcode-fctabwt-button {
-        padding: 0.2rem 0.5rem !important;
+        padding: 0.2rem 0.3rem !important;
         font-size: 10px !important;
     }
 }
 
-@media(max-width: 300px) {
-    .valcode-fctabwt-content {
-        gap: 5px !important;
-        width: 100% !important;
-        padding: 0.2rem 1rem !important;
-
-    }
-
-    .valcode-fctabwt-time {
-        font-size: 8px !important;
-    }
-
-    .valcode-fctabwt-span {
-        font-size: 4px !important;
-    }
-
-    .valcode-fctabwt-text {
-        font-size: 5px !important;
-    }
-
-    .valcode-fctabwt-timer-container {
-        gap: 3px !important;
-    }
-
-    .valcode-fctabwt-button {
-        padding: 0.2rem 0.5rem !important;
-        font-size: 8px !important;
-        margin-left: 1rem !important;
-    }
-}
 
 /* third piece ends here  */
 
@@ -342,52 +330,56 @@
     max-width: 300px !important;
     border-radius: 10px !important;
     position: relative !important;
-    padding: 1rem 0 !important;
+    padding: 1rem 0.5rem !important;
 }
 
 .valcode-cwof-get-imagebox {
     position: relative !important;
     width: 300px !important;
     max-width: 300px !important;
-    height: 200px !important;
-    max-height: 200px !important;
+    height: 140px !important;
+    max-height: 140px !important;
 
 }
 
 .valcode-cwof-get-bulbimage {
-    width: 250px !important;
+    width: 200px !important;
 }
 
-.valcode-cwof-get-bulbimage img {
-    width: 250px !important;
+.valcode-cwof-get-bulbimage .valcode-cwof-get-bulbimage-img {
+    width: 200px !important;
 }
 
 .valcode-cwof-get-giftbox {
     position: absolute !important;
-    width: 100px !important;
-    top: 70px !important;
-    left: 100px !important;
+    width: 80px !important;
+    top: 50px !important;
+    left: 120px !important;
 }
 
-.valcode-cwof-get-giftbox img {
-    width: 90px !important;
+.valcode-cwof-get-giftbox .valcode-cwof-get-giftbox-img {
+    width: 80px !important;
 }
 
 .valcode-cwof-get-title {
-    font-size: 30px !important;
+    font-size: 24px !important;
     opacity: 70% !important;
 }
 
 .valcode-cwof-get-subtitle {
     font-size: 30px !important;
+    text-align: center !important;
+    margin: 0 !important;
+
 }
 
 .valcode-cwof-get-button {
     border: none !important;
     outline: none !important;
-    padding: 0.5rem 2rem !important;
+    width: 50% !important;
+    padding: 0.5rem 0 !important;
     margin: 1rem 0 1rem 0 !important;
-    border-radius: 8px !important;
+    border-radius: 5px !important;
     cursor: pointer !important;
 }
 
@@ -413,6 +405,7 @@
     .valcode-cwof-get-content {
         width: 200px !important;
         max-width: 200px !important;
+
     }
 
     .valcode-cwof-get-imagebox {
@@ -420,7 +413,7 @@
         width: 100px !important;
         max-width: 100px !important;
         height: 90px !important;
-        max-height: 180px !important;
+        max-height: 90px !important;
 
     }
 
@@ -428,48 +421,38 @@
         width: 100px !important;
     }
 
-    .valcode-cwof-get-bulbimage img {
+    .valcode-cwof-get-bulbimage .valcode-cwof-get-bulbimage-img {
         width: 100px !important;
     }
 
     .valcode-cwof-get-giftbox {
         position: absolute !important;
         width: 50px !important;
-        top: 20px !important;
+        top: 25px !important;
         left: 32px !important;
     }
 
-    .valcode-cwof-get-giftbox img {
+    .valcode-cwof-get-giftbox .valcode-cwof-get-giftbox-img {
         width: 40px !important;
     }
 
+
     .valcode-cwof-get-title {
-        font-size: 24px !important;
+        font-size: 20px !important;
         opacity: 70% !important;
     }
 
     .valcode-cwof-get-subtitle {
-        font-size: 30px !important;
-    }
-
-    .valcode-cwof-get-button {
-        border: none !important;
-        outline: none !important;
-        padding: 0.5rem 2rem !important;
-        margin: 1rem 0 1rem 0 !important;
-        border-radius: 8px !important;
-        cursor: pointer !important;
+        font-size: 24px !important;
     }
 }
 
-/* end of fourth piece  */
 
-/* start of fifth piece  */
 /* <!-- ===============COUPON WITH OPT-IN FORM(SUBSCRIBE)=============== --> */
 
 .valcode-cwof-subscribe-content {
-    width: 320px !important;
-    max-width: 320px !important;
+    width: 300px !important;
+    max-width: 300px !important;
     border-radius: 10px !important;
     position: relative !important;
 }
@@ -546,20 +529,21 @@
         max-width: 250px !important;
 
     }
+
+    .valcode-cwof-subscribe-title {
+        font-size: 20px !important;
+    }
 }
 
-/* end of fifth piece  */
-
-/* sixth piece starts here  */
 /* <!-- =============LIVE COUNTER ====================== --> */
 
 .valcode-livecounter-content {
     display: flex !important;
     justify-content: start !important;
     align-items: center !important;
-    width: 320px !important;
+    width: 250px !important;
     gap: 10px !important;
-    padding: 1rem 1rem !important;
+    padding: 0.5rem 0.5rem !important;
     border-radius: 5px !important;
     position: relative !important;
 }
@@ -571,50 +555,52 @@
     border: none !important;
     outline: none !important;
     position: absolute !important;
-    right: 10px !important;
-    top: 2px !important;
+    right: 0 !important;
+    top: -2px !important;
     cursor: pointer !important;
     z-index: 1 !important;
 }
 
-.valcode-livecounter-close img {
+.valcode-livecounter-close .valcode-livecounter-close-img {
     width: 8px !important;
     height: 8px !important;
 }
 
 .valcode-livecounter-image {
-    width: 50px !important;
-    height: 50px !important;
+    width: 40px !important;
+    height: 40px !important;
 }
 
 
-.valcode-livecounter-image img {
-    width: 50px !important;
-    height: 50px !important;
+.valcode-livecounter-image .valcode-livecounter-image-img {
+    width: 40px !important;
+    height: 40px !important;
 }
 
 .valcode-livecounter-title {
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-weight: 500 !important;
     text-align: start !important;
+    margin: 0 !important;
 }
 
 .valcode-livecounter-subtitle {
-    font-size: 11px !important;
+    font-size: 10px !important;
     text-align: start !important;
+    margin: 0 !important;
+    line-height: 1rem !important;
 }
 
 @media(max-width:950px) {
     .valcode-livecounter-content {
-        width: 220px !important;
-        gap: 10px !important;
-        padding: 1rem 0.5rem !important;
-        border-radius: 5px !important;
+        width: 190px !important;
+        gap: 6px !important;
+
     }
 
     .valcode-livecounter-close {
-        right: 0 !important;
-        top: 0 !important;
+        right: -5px !important;
+        top: -5px !important;
     }
 
     .valcode-livecounter-image {
@@ -622,10 +608,18 @@
         height: 20px !important;
     }
 
-    .valcode-livecounter-image img {
+    .valcode-livecounter-close .valcode-livecounter-close-img {
+        width: 6px !important;
+        height: 6px !important;
+    }
+
+
+
+    .valcode-livecounter-image .valcode-livecounter-image-img {
         width: 20px !important;
         height: 20px !important;
     }
+
 
     .valcode-livecounter-title {
         font-size: 10px !important;
@@ -637,18 +631,15 @@
     }
 }
 
-/* sixth piece ends here  */
-
-/* seventh piece starts here  */
 /* <!-- =============== CONVERSION COUNTER ============= --> */
 
 .valcode-conversion_counter-content {
     display: flex !important;
     justify-content: start !important;
     align-items: flex-start !important;
-    width: 320px !important;
+    width: 260px !important;
     gap: 10px !important;
-    padding: 0.5rem 0.8rem !important;
+    padding: 0.5rem 1rem !important;
     border-radius: 5px !important;
     position: relative !important;
 }
@@ -666,7 +657,7 @@
     z-index: 1 !important;
 }
 
-.valcode-conversion_counter-close img {
+.valcode-conversion_counter-close .valcode-conversion_counter-close-img {
     width: 8px !important;
     height: 8px !important;
 }
@@ -677,13 +668,14 @@
 }
 
 .valcode-conversion_counter-image {
-    width: 50px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding-top: 0.5rem !important;
 }
 
 .valcode-conversion_counter-image img {
-    width: 50px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 30px !important;
 }
 
 .valcode-conversion_counter-flash {
@@ -697,34 +689,36 @@
 }
 
 .valcode-conversion_counter-text {
-    font-size: 12px !important;
+    font-size: 10px !important;
     text-align: start !important;
+    margin: 0 !important;
+    padding-top: 0.5rem !important;
 }
 
 .valcode-conversion_counter-link {
-    font-size: 12px !important;
+    font-size: 10px !important;
     float: left !important;
     padding: 0.2rem 0 !important;
 }
 
 .valcode-conversion_counter-footer {
     display: flex !important;
-    justify-content: center !important;
+    justify-content: end !important;
     align-items: center !important;
-    margin-right: -5rem !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
+    margin: 0 !important;
 }
 
 @media(max-width:950px) {
     .valcode-conversion_counter-content {
         width: 220px !important;
         gap: 10px !important;
-        padding: 0.5rem 1rem !important;
     }
 
     .valcode-conversion_counter-image {
         width: 20px !important;
         height: 20px !important;
+        padding: 0 !important;
     }
 
     .valcode-conversion_counter-image img {
@@ -744,6 +738,8 @@
 
     .valcode-conversion_counter-text {
         font-size: 10px !important;
+        padding: 0 !important;
+        line-height: 0.8rem !important;
     }
 
     .valcode-conversion_counter-link {
@@ -836,7 +832,7 @@
 
     .valcode-ynbar-button {
         padding: 0.5rem 0 !important;
-        width: 70% !important;
+        width: 80% !important;
         border: none !important;
         font-size: 8px !important;
     }
@@ -850,7 +846,7 @@
     align-items: center !important;
     width: 250px !important;
     border-radius: 5px !important;
-    position: relative;
+    position: relative !important;
 }
 
 .valcode-countdowntimer-title {
@@ -1033,6 +1029,8 @@
 
 .valcode-supporbox-leftchat-text {
     font-size: 12px !important;
+    margin: 0 !important;
+
 }
 
 .valcode-supporbox-leftchat-chat {
@@ -1069,6 +1067,7 @@
 
 .valcode-supporbox-rightchat-text {
     font-size: 12px !important;
+    margin: 0 !important;
 }
 
 .valcode-supporbox-footer {
@@ -1117,7 +1116,7 @@
 @media(max-width:950px) {
 
     .valcode-supportbox-content {
-        width: 200px !important;
+        width: 250px !important;
         height: 280px !important;
     }
 
@@ -1223,6 +1222,7 @@
     font-size: 16px !important;
     padding: 0.3rem 0 !important;
     border-radius: 5px !important;
+    margin: 0 !important;
 }
 
 .valcode-erwt-subtitle {
@@ -1235,6 +1235,13 @@
     width: 250px !important;
     height: 150px !important;
     object-fit: contain !important;
+}
+
+.valcode-erwt-box {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
 }
 
 .valcode-erwt-videocontent img {
@@ -1347,7 +1354,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    position: relative;
+    position: relative !important;
 }
 
 .valcode-latest-converse-profile-wrapper {
@@ -1355,7 +1362,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 0.7rem 0.5rem !important;
+    padding: 0.3rem 0.3rem !important;
 
 }
 
@@ -1386,18 +1393,20 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    padding: 0.5rem 0.5rem !important;
+    padding: 0.3rem 0.3rem !important;
     border-radius: 5px !important;
 }
 
 .valcode-latest-converse-profile-title-header {
     font-size: 12px !important;
     font-weight: bolder !important;
+    margin: 0 !important;
 }
 
 .valcode-latest-converse-profile-title-appointment {
-    padding: 0.5rem 0 !important;
+    padding: 0.3rem 0 !important;
     font-weight: 500 !important;
+    margin: 0 !important;
 }
 
 .valcode-latest-converse-profile-title-time {
@@ -1407,8 +1416,9 @@
     font-size: 10px;
 }
 
-.valcode-latest-converse-profile-title-time-verified {
-    font-weight: bold !important;
+.valcode-latest-converse-profile-title-time-one {
+    margin: 0 !important;
+
 }
 
 
@@ -1417,7 +1427,6 @@
 
     .valcode-latest-converse-content {
         gap: 1.5px !important;
-        margin-bottom: 1rem !important;
     }
 
     .valcode-latest-converse-profile-wrapper {
@@ -1436,12 +1445,12 @@
     }
 
     .valcode-latest-converse-profile-img {
-        width: 1.5rem !important;
-        height: 1.5rem !important;
+        width: 2rem !important;
+        height: 2.5rem !important;
     }
 
     .valcode-latest-converse-profile-title-wrapper {
-        padding: .1rem 0.2rem !important;
+        padding: 0.4rem 0.1rem !important;
     }
 
     .valcode-latest-converse-profile-title-header {
@@ -1450,7 +1459,6 @@
     }
 
     .valcode-latest-converse-profile-title-appointment {
-        padding: 0.5rem 0 !important;
         font-size: 8px !important;
     }
 
@@ -1461,3 +1469,546 @@
 }
 
 /* ================================LATEST CONVERSATION ENDS HERE================ */
+
+/* ========================================SLOTS CONTENTS STARTS HERE============================================= */
+
+.valcode-slot-content {
+    width: fit-content !important;
+    height: fit-content !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 5px !important;
+    width: 100px !important;
+    position: relative !important;
+
+}
+
+.valcode-slot-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: -5px !important;
+    top: -5px !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-slot-close img {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.valcode-slot-box1 {
+    padding: 0.5rem 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
+}
+
+.valcode-slot-code {
+    font-weight: 300 !important;
+    margin: 0 !important;
+}
+
+.valcode-slot-box2 {
+    font-weight: bolder !important;
+    padding: 0.5rem 0 !important;
+
+}
+
+.valcode-slot-remain {
+    margin: 0 !important;
+}
+
+
+@media (max-width: 700px) {
+    .valcode-slot-content {
+        width: 60px !important;
+
+    }
+
+    .valcode-slot-box1 {
+        padding: 0.2rem 0 !important;
+
+    }
+
+    .valcode-slot-close {
+        right: -6px !important;
+        top: -7px !important;
+        cursor: pointer !important;
+        z-index: 1 !important;
+    }
+
+    .valcode-slot-close img {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .valcode-slot-box2 {
+        padding: 0.2rem 0 !important;
+    }
+
+    .valcode-slot-code {
+        font-size: 14px !important;
+    }
+
+    .valcode-slot-remain {
+        font-size: 10px !important;
+    }
+
+    .valcode-slotcode {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+/* =================================SLOTS CONTENTS ENDS HERE====================================== */
+
+/*=================================== NEW PRODUCT DISPLAY STARTS HERE======================= */
+
+.valcode-npd-display-content {
+    width: fit-content !important;
+    height: fit-content !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0.7rem 1.5rem !important;
+    border-radius: 5px !important;
+    position: relative !important;
+
+}
+
+
+.valcode-npd-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-npd-close img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-npd-title {
+    font-size: 1.2rem !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+
+}
+
+.valcode-npd-subtitle {
+    font-size: .8rem !important;
+}
+
+.valcode-npd-content-two {
+    height: 13rem !important;
+    width: 10rem !important;
+    border: 1px dashed red !important;
+    margin: .5rem 0 !important;
+
+}
+
+.valcode-npd-content-three {
+    height: 3rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.valcode-npd-content-three-button {
+    padding: 0.4rem 2.5rem !important;
+    font-weight: bolder !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.valcode-npd-content-three-button {
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0 0 10px #cec5c58a !important;
+    border-radius: 3px !important;
+    z-index: 9 !important;
+    cursor: pointer !important;
+}
+
+
+/* ===============================media==================================== */
+@media (max-width: 700px) {
+    .valcode-npd-display-content {
+        padding: 0.4rem .5rem !important;
+    }
+
+
+    .valcode-npd-close {
+        right: -5px !important;
+        top: -10px !important;
+        cursor: pointer !important;
+        z-index: 1 !important;
+    }
+
+    .valcode-npd-close img {
+        width: 6px !important;
+        height: 6px !important;
+    }
+
+    .valcode-npd-title {
+        font-size: .5rem !important;
+    }
+
+    .valcode-npd-subtitle {
+        font-size: .4rem !important;
+    }
+
+    .valcode-npd-content-two {
+        height: 7rem !important;
+        width: 6rem !important;
+    }
+
+    .valcode-npd-content-three {
+        height: 2rem !important;
+    }
+
+    .valcode-npd-content-three-button {
+        padding: 0.2rem .9rem !important;
+        font-size: .6rem !important;
+    }
+}
+
+/*  =====================================NEW PRODUCT DISPLAY ENDS HERE================================= */
+
+/* ==========================LATEST CONVERSATION WITH BUTTON STARTS HERE =================================*/
+
+
+.valcode-lcwb-content {
+    width: fit-content !important;
+    max-width: fit-content !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+}
+
+.valcode-lcwb-profile-wrapper {
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.valcode-lcwb-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-lcwb-close img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-lcwb-profile-title-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0.3rem 0.5rem !important;
+    border-radius: 5px !important;
+}
+
+.valcode-lcwb-profile-title-header {
+    font-size: 12px !important;
+    font-weight: bolder !important;
+    margin: 0 !important;
+}
+
+.valcode-lcwb-profile-title-appointment {
+    padding: 0.3rem 0 !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    margin: 0 !important;
+}
+
+.valcode-lcwb-profile-title-time {
+    display: flex !important;
+    align-items: center;
+    gap: 2rem !important;
+    font-size: 10px !important;
+}
+
+
+.valcode-lcwb-profile-button {
+    padding: 0.2rem 0.5rem !important;
+    outline: none !important;
+    border: none !important;
+    cursor: pointer !important;
+    border-radius: 2px !important;
+    font-size: 10px !important;
+    margin-top: .5rem !important;
+}
+
+.valcode-lcwb-profile-title-time-one {
+    margin: 0 !important;
+
+}
+
+.valcode-lcwb-btn-profile-wrapper {
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.valcode-lcwb-btn-profile-img {
+    width: 4rem !important;
+    height: 4rem !important;
+    padding: 0.5rem 0.5rem !important;
+}
+
+
+
+@media (max-width: 950px) {
+    .valcode-lcwb-profile-wrapper {
+        padding: 0.7rem 0.5rem !important;
+    }
+
+    .valcode-lcwb-close {
+        right: 0 !important;
+        top: -5px !important;
+        cursor: pointer !important;
+        z-index: 1 !important;
+    }
+
+    .valcode-lcwb-close img {
+        width: 6px !important;
+        height: 6px !important;
+    }
+
+    .valcode-lcwb-profile-title-wrapper {
+        padding: 0.3rem 0.5rem !important;
+    }
+
+    .valcode-lcwb-profile-title-header {
+        font-size: 9px !important;
+    }
+
+    .valcode-lcwb-profile-title-appointment {
+        padding: 0.3rem 0 !important;
+        font-size: 8px !important;
+    }
+
+    .valcode-lcwb-profile-title-time {
+        gap: 1rem !important;
+        font-size: 8px !important;
+    }
+
+    .valcode-lcwb-profile-button {
+        font-size: 8px !important;
+    }
+
+    .valcode-lcwb-btn-profile-img {
+        width: 3.4rem !important;
+        height: 3.4rem !important;
+        padding: 0.5rem 0.5rem !important;
+    }
+
+}
+
+
+
+/* ======= FULL BAR LEAD GENERATION ====  */
+
+.valcode-fblg-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 450px !important;
+    gap: 10px !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.valcode-fblg-details {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.valcode-fblg-input {
+    width: 150px !important;
+    border: none !important;
+    outline: none;
+    font-size: 12px !important;
+    padding: 0.2rem 0.3rem !important;
+}
+
+.valcode-fblg-text {
+    font-size: 10px !important;
+}
+
+.valcode-fblg-button {
+    padding: 0.3rem 0.2rem !important;
+    cursor: pointer !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 10px !important;
+}
+
+@media(max-width: 950px) {
+
+    .valcode-fblg-content {
+        width: 280px !important;
+        gap: 5px !important;
+        padding: 0.2rem 0.5rem !important;
+    }
+
+    .valcode-fblg-details {
+        gap: 5px !important;
+    }
+
+    .valcode-fblg-input {
+        width: 80px !important;
+        font-size: 10px;
+        padding: 0.2rem 0.3rem !important;
+        font-family: inherit !important;
+    }
+
+    .valcode-fblg-text {
+        font-size: 8px !important;
+    }
+
+    .valcode-fblg-button {
+        padding: 0.1rem 0.1rem !important;
+        cursor: pointer !important;
+        border: none !important;
+        outline: none !important;
+        font-size: 8px !important;
+    }
+}
+
+/* ========= CALL BACK REQUEST ===========  */
+
+.valcode-cbr-content {
+    width: 250px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1rem 1rem !important;
+    position: relative !important;
+}
+
+.valcode-cbr-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-cbr-close .valcode-cbr-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-cbr-header {
+    font-size: 18px !important;
+    padding: 0 1rem !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+.valcode-cbr-select-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    width: 100% !important;
+}
+
+.valcode-cbr-select {
+    width: 50% !important;
+    padding: 0.3rem 0.5rem !important;
+    border-radius: 4px !important;
+    outline: none !important;
+}
+
+.valcode-cbr-phone {
+    width: 100% !important;
+    margin: 0.8rem 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 4px !important;
+}
+
+.valcode-cbr-phoneselect {
+    width: 20% !important;
+    outline: none !important;
+    border: none !important;
+    padding: 0.3rem 0.3rem !important;
+
+}
+
+.valcode-cbr-phoneinput {
+    border: none !important;
+    outline: none !important;
+    width: 80% !important;
+    padding: 0.5rem 0.3rem !important;
+    font-family: inherit !important;
+
+}
+
+.valcode-cbr-button {
+    border: none !important;
+    width: 100% !important;
+    outline: none;
+    padding: 0.5rem 0 !important;
+    margin: 0.3rem 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+}
+
+.valcode-cbr-footertext {
+    font-size: 10px !important;
+    text-align: center !important;
+}
+
+@media(max-width:950px) {
+
+    .valcode-cbr-content {
+        width: 200px !important;
+    }
+
+    .valcode-cbr-header {
+        font-size: 16px !important;
+    }
+
+    .valcode-cbr-button {
+
+        font-size: 12px !important;
+
+    }
+}
