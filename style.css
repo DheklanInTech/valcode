@@ -328,7 +328,6 @@
 .valcode-cwof-get-content {
     width: 300px !important;
     max-width: 300px !important;
-    border-radius: 10px !important;
     position: relative !important;
     padding: 1rem 0.5rem !important;
 }
@@ -403,7 +402,6 @@
 
 @media(max-width:950px) {
     .valcode-cwof-get-content {
-        width: 200px !important;
         max-width: 200px !important;
 
     }
@@ -451,9 +449,7 @@
 /* <!-- ===============COUPON WITH OPT-IN FORM(SUBSCRIBE)=============== --> */
 
 .valcode-cwof-subscribe-content {
-    width: 300px !important;
     max-width: 300px !important;
-    border-radius: 10px !important;
     position: relative !important;
 }
 
@@ -525,9 +521,7 @@
 
 @media(max-width: 950px) {
     .valcode-cwof-subscribe-content {
-        width: 250px !important;
         max-width: 250px !important;
-
     }
 
     .valcode-cwof-subscribe-title {
@@ -541,10 +535,9 @@
     display: flex !important;
     justify-content: start !important;
     align-items: center !important;
-    width: 250px !important;
+    max-width: 250px !important;
     gap: 10px !important;
     padding: 0.5rem 0.5rem !important;
-    border-radius: 5px !important;
     position: relative !important;
 }
 
@@ -593,7 +586,7 @@
 
 @media(max-width:950px) {
     .valcode-livecounter-content {
-        width: 190px !important;
+        max-width: 190px !important;
         gap: 6px !important;
 
     }
@@ -637,7 +630,7 @@
     display: flex !important;
     justify-content: start !important;
     align-items: flex-start !important;
-    width: 260px !important;
+    max-width: 260px !important;
     gap: 10px !important;
     padding: 0.5rem 1rem !important;
     border-radius: 5px !important;
@@ -711,7 +704,7 @@
 
 @media(max-width:950px) {
     .valcode-conversion_counter-content {
-        width: 220px !important;
+        max-width: 220px !important;
         gap: 10px !important;
     }
 
@@ -1116,8 +1109,8 @@
 @media(max-width:950px) {
 
     .valcode-supportbox-content {
-        width: 250px !important;
-        height: 280px !important;
+        max-width: 250px !important;
+        max-height: 280px !important;
     }
 
     .valcode-supporbox-avatar {
@@ -1690,7 +1683,6 @@
 
 
 .valcode-lcwb-content {
-    width: fit-content !important;
     max-width: fit-content !important;
     display: flex !important;
     justify-content: center !important;
@@ -1838,7 +1830,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 450px !important;
+    max-width: 450px !important;
     gap: 10px !important;
     padding: 0.5rem 1rem !important;
 }
@@ -1873,7 +1865,7 @@
 @media(max-width: 950px) {
 
     .valcode-fblg-content {
-        width: 280px !important;
+        max-width: 280px !important;
         gap: 5px !important;
         padding: 0.2rem 0.5rem !important;
     }
@@ -1905,7 +1897,7 @@
 /* ========= CALL BACK REQUEST ===========  */
 
 .valcode-cbr-content {
-    width: 250px !important;
+    max-width: 250px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -1977,13 +1969,12 @@
     width: 80% !important;
     padding: 0.5rem 0.3rem !important;
     font-family: inherit !important;
-
 }
 
 .valcode-cbr-button {
     border: none !important;
     width: 100% !important;
-    outline: none;
+    outline: none !important;
     padding: 0.5rem 0 !important;
     margin: 0.3rem 0 !important;
     font-size: 14px !important;
@@ -1999,7 +1990,7 @@
 @media(max-width:950px) {
 
     .valcode-cbr-content {
-        width: 200px !important;
+        max-width: 200px !important;
     }
 
     .valcode-cbr-header {
@@ -2007,8 +1998,775 @@
     }
 
     .valcode-cbr-button {
+        font-size: 12px !important;
+    }
+}
 
+/* ========== ANNOUNCEMENTS ==========  */
+
+.valcode-announcements-content {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 200px !important;
+    position: relative !important;
+    padding: 1rem 1rem !important;
+}
+
+.valcode-announcements-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-announcements-close .valcode-announcements-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-announcements-header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.valcode-announcements-img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.valcode-announcements-title {
+    font-size: 14px !important;
+}
+
+.valcode-announcements-text {
+    font-size: 12px !important;
+}
+
+.valcode-announcements-button {
+    border: none !important;
+    width: 100% !important;
+    outline: none;
+    padding: 0.5rem 0 !important;
+    margin: 0.3rem 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+}
+
+@media(max-width:950px) {
+
+    .valcode-announcements-content {
+        max-width: 150px !important;
+    }
+
+
+    .valcode-announcements-close .valcode-announcements-close-image {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    .valcode-announcements-header {
+        gap: 8px !important;
+    }
+
+    .valcode-announcements-img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .valcode-announcements-title {
+        font-size: 12px !important;
+    }
+
+    .valcode-announcements-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-announcements-button {
+        font-size: 10px !important;
+    }
+}
+
+/* ====================  VIDEO EMBED ============ */
+
+
+.valcode-videoembeded-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    position: relative;
+    padding: 1rem 2rem;
+}
+
+.valcode-videoembeded-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-videoembeded-close .valcode-videoembeded-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-videoembeded-video {
+    width: 100% !important;
+    height: 140px !important;
+}
+
+.valcode-videoembeded-title {
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+
+.valcode-videoembeded-subtitle {
+    font-size: 12px !important;
+}
+
+.valcode-videoembeded-footer {
+    font-size: 10px !important;
+}
+
+.valcode-videoembeded-button {
+    border: none !important;
+    width: 90% !important;
+    outline: none;
+    padding: 0.5rem 0 !important;
+    margin-top: 1rem;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-videoembeded-content {
+        max-width: 200px !important;
+    }
+
+
+    .valcode-videoembeded-close .valcode-videoembeded-close-image {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    .valcode-videoembeded-video {
+        width: 100% !important;
+        height: 130px !important;
+    }
+
+    .valcode-videoembeded-title {
+        font-size: 14px !important;
+        margin: 0 !important;
+    }
+
+    .valcode-videoembeded-subtitle {
+        font-size: 10px !important;
+    }
+
+    .valcode-videoembeded-footer {
+        font-size: 8px !important;
+    }
+
+    .valcode-videoembeded-button {
+        padding: 0.5rem 0 !important;
+        margin-top: 0.5rem !important;
         font-size: 12px !important;
 
     }
+}
+
+
+/* ====================================NEWSLETTER SUBSRIPTION STARTS HERE==================================== */
+
+.valcode-SNL-content {
+    max-width: 270px !important;
+    height: fit-content !important;
+    margin-top: 1rem !important;
+    position: relative;
+}
+
+.valcode-SNL-content-desc-wrapper {
+    padding: .5rem 1.5rem !important;
+}
+
+.valcode-SNL-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-SNL-close .valcode-SNL-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-SNL-heading {
+    font-size: 1rem !important;
+}
+
+.valcode-SNL-content-subtitle {
+    font-size: .6rem !important;
+}
+
+.valcode-SNL-image-display-wrapper {
+    height: 110px;
+}
+
+.valcode-SNL-image-display-wrapper-img {
+    width: 100% !important;
+    object-fit: cover;
+    height: 100% !important;
+}
+
+.valcode-SNL-content-contact-form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1px !important;
+    margin-top: .5rem !important;
+}
+
+.valcode-SNL-content-input {
+    font-size: .5rem !important;
+    text-align: center !important;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    width: 80%;
+}
+
+.valcode-SNL-content-button {
+    width: 90% !important;
+    font-size: .5rem !important;
+    padding: 0.5rem 0.5rem !important;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+
+    .valcode-SNL-content-desc-wrapper {
+        padding: .5rem .7rem !important;
+    }
+
+    .valcode-SNL-heading {
+        font-size: .8rem !important;
+    }
+
+    .valcode-SNL-content-subtitle {
+        font-size: .5rem !important;
+    }
+}
+
+/* ==================NEWS LETTER SUBSCRIPTION ENDS HERE ===================== */
+
+
+
+/* ===========================BOOK AN APPOINTMENT STARTS HERE================== */
+.valcode-baas-content {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 270px !important;
+    position: relative !important;
+}
+
+.valcode-baas-image-display-wrapper {
+    max-width: 100% !important;
+}
+
+.valcode-baas-img {
+    object-fit: fill !important;
+    width: 270px !important;
+    height: 150px !important;
+}
+
+.valcode-baas-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-baas-close .valcode-baas-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-baas-link {
+    outline: none !important;
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    margin-top: .2rem !important;
+    font-size: 10px !important;
+    text-decoration: none;
+}
+
+.valcode-baas-subtitle {
+    font-size: 14px !important;
+    padding: 0 1rem !important;
+}
+
+.valcode-baas-appoint {
+    font-size: 10px !important;
+}
+
+
+@media (max-width: 700px) {
+    .valcode-appoint button {
+        font-size: .5rem !important;
+        margin-top: 0rem !important;
+    }
+
+    .valcode-baas-image-display-wrapper {
+        width: 250px !important;
+    }
+
+    .valcode-baas-content {
+        max-width: 250px !important;
+
+    }
+
+    .valcode-baas-img {
+        object-fit: fill !important;
+        width: 250px !important;
+
+    }
+}
+
+/* ==========================BOOK AN APPOINTMENT ENDS HERE============================== */
+
+
+
+/* ==============================NEW EBOOK RELEASE STARTS HERE =========================== */
+/* NOTE THAT THE NEW EBOOK RELEASE TOOK THE STYING FROM THE NEW PRODUCT RELEASE ========= */
+
+.valcode-ebook-content {
+    max-width: 250px !important;
+    max-height: fit-content !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 1rem 1rem !important;
+    position: relative !important;
+}
+
+.valcode-ebook-title {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.valcode-ebook-subtitle {
+    font-size: 12px !important;
+}
+
+.valcode-ebook-content-two {
+    max-width: 180px !important;
+    height: 160px !important;
+}
+
+.valcode-ebook-content-two-img {
+    width: 180px !important;
+    height: 160px !important;
+}
+
+.valcode-ebook-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-ebook-close .valcode-ebook-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-ebook-input {
+    margin-top: 1rem !important;
+    width: 80% !important;
+    padding: 0.3rem 0.3rem !important;
+    text-align: center !important;
+    outline: none !important;
+}
+
+.valcode-ebook-content-three-button {
+    width: 90% !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 4px !important;
+    margin-top: 1rem !important;
+    font-size: 12px !important;
+    padding: 0.5rem 0 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+
+}
+
+
+
+
+
+/* ==============MEDIA SCREEN=============== */
+
+@media (max-width: 700px) {
+    .valcode-ebook-content {
+        padding: .5rem .5rem !important;
+        border-radius: 5px !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .valcode-ebook-input::placeholder {
+        font-size: .5rem !important;
+    }
+}
+
+/* ========= Cookie notification ===  */
+
+.valcode-cookie-content {
+    max-width: 300px !important;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.valcode-cookie-details {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.valcode-cookie-img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.valcode-cookie-text {
+    font-size: 10px !important;
+    text-align: start !important;
+}
+
+.valcode-cookie-button {
+    width: 100% !important;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+}
+
+.valcode-cookie-footer {
+    font-size: 8px !important;
+    text-align: start !important;
+}
+
+@media(max-width:950px) {
+    .valcode-cookie-content {
+        max-width: 200px !important;
+    }
+
+    .valcode-cookie-img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+
+/* ============= Random Review from database ==  */
+
+.valcode-rrfd-content {
+    max-width: 280px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+}
+
+.valcode-rrfd-avatar {
+    width: 60px !important;
+    height: 60px !important;
+    padding: 0.3rem 0.3rem !important;
+
+}
+
+.valcode-rrfd-details {
+    padding: 0.3rem 0.3rem !important;
+    height: 60px !important;
+}
+
+.valcode-rrfd-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-rrfd-close .valcode-rrfd-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-rrfd-avatar-img {
+    width: 50px !important;
+}
+
+.valcode-rrfd-title {
+    font-size: 10px !important;
+    margin: 0 !important;
+}
+
+.valcode-rrfd-name {
+    font-size: 10px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+}
+
+.valcode-rrfd-stars {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.valcode-rrfd-star-img {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+@media(max-width:950px) {
+    .valcode-rrfd-content {
+        max-width: 250px !important;
+    }
+}
+
+/* ======== Facebook Reviews ======  */
+
+.valcode-fbreviews-content {
+    max-width: 300px !important;
+}
+
+.valcode-fbreviews-details {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    gap: 10px !important;
+    padding: 0.3rem 1rem !important;
+}
+
+.valcode-fbreviews-title {
+    font-size: 12px !important;
+    padding: 0.3rem 0 !important;
+    margin: 0 !important;
+}
+
+.valcode-fbreviews-details-left-img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.valcode-fbreviews-details-text {
+    font-size: 10px !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+.valcode-fbreviews-date {
+    margin: 0 !important;
+    font-size: 10px !important;
+    text-align: start !important;
+}
+
+.valcode-fbreviews-word {
+    font-size: 10px !important;
+    text-align: start !important;
+    margin: 0 !important;
+    padding: 0 0.2rem 0.3rem 1.5rem !important;
+}
+
+
+/* ============== YELP Reviews ===========  */
+
+.valcode-yelp-content {
+    max-width: 250px;
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+.valcode-yelp-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-yelp-close .valcode-yelp-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-yelp-details-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.valcode-yelp-avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.valcode-yelp-name {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.valcode-yelp-subtitle {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0;
+
+}
+
+.valcode-yelp-details {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.valcode-yelp-star-img {
+    width: 10px;
+    height: 10px;
+}
+
+.valcode-yelp-text {
+    font-size: 12px;
+    text-align: start;
+    margin: 0;
+    padding: 0.3rem 0;
+}
+
+.valcode-yelp-powered {
+    font-size: 10px;
+    text-align: start;
+    margin: 0;
+}
+
+.valcode-yelp-brand {
+    font-size: 10px;
+    text-align: start;
+    margin: 0;
+}
+
+
+/* =========== TrustPilot =======  */
+
+.valcode-trustpilot-content {
+    max-width: 250px;
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+.valcode-trustpilot-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-trustpilot-close .valcode-trustpilot-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-trustpilot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valcode-trustpilot-star-img {
+    height: 15px;
+    width: 15px;
+}
+
+.valcode-trustpilot-date {
+    font-size: 12px;
+}
+
+.valcode-trustpilot-title {
+    text-align: start;
+    margin: 0;
+    padding: 0.3rem 0;
+    font-weight: 600;
+}
+
+.valcode-trustpilot-text {
+    margin: 0;
+    padding: 0.3rem 0;
+    font-size: 12px;
+    text-align: start;
+}
+
+.valcode-trustpilot-name {
+    margin: 0;
+    padding: 0.3rem 0;
+    text-align: start;
+    font-size: 14px;
 }
