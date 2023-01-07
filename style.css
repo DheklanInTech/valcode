@@ -2628,9 +2628,9 @@
 /* ============== YELP Reviews ===========  */
 
 .valcode-yelp-content {
-    max-width: 250px;
-    position: relative;
-    padding: 0.5rem 1rem;
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 0.5rem 1rem !important;
 }
 
 .valcode-yelp-close {
@@ -2654,67 +2654,67 @@
 .valcode-yelp-details-container {
     display: flex;
     justify-content: start;
-    align-items: start;
-    gap: 10px;
+    align-items: start !important;
+    gap: 10px !important;
 }
 
 .valcode-yelp-avatar {
-    height: 40px;
-    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
 }
 
 .valcode-yelp-name {
-    font-size: 12px;
-    margin: 0;
-    font-weight: 600;
+    font-size: 12px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
 }
 
 .valcode-yelp-subtitle {
-    display: flex;
-    align-items: center;
-    font-size: 10px;
-    margin: 0;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 10px !important;
+    margin: 0 !important;
 
 }
 
 .valcode-yelp-details {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-direction: column;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column !important;
 }
 
 .valcode-yelp-star-img {
-    width: 10px;
-    height: 10px;
+    width: 10px !important;
+    height: 10px !important;
 }
 
 .valcode-yelp-text {
-    font-size: 12px;
-    text-align: start;
-    margin: 0;
-    padding: 0.3rem 0;
+    font-size: 12px !important;
+    text-align: start !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
 }
 
 .valcode-yelp-powered {
-    font-size: 10px;
-    text-align: start;
-    margin: 0;
+    font-size: 10px !important;
+    text-align: start !important;
+    margin: 0 !important;
 }
 
 .valcode-yelp-brand {
-    font-size: 10px;
-    text-align: start;
-    margin: 0;
+    font-size: 10px !important;
+    text-align: start !important;
+    margin: 0 !important;
 }
 
 
 /* =========== TrustPilot =======  */
 
 .valcode-trustpilot-content {
-    max-width: 250px;
-    position: relative;
-    padding: 0.5rem 1rem;
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 0.5rem 1rem !important;
 }
 
 .valcode-trustpilot-close {
@@ -2736,37 +2736,1327 @@
 }
 
 .valcode-trustpilot-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
 }
 
 .valcode-trustpilot-star-img {
-    height: 15px;
-    width: 15px;
+    height: 15px !important;
+    width: 15px !important;
 }
 
 .valcode-trustpilot-date {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
 .valcode-trustpilot-title {
-    text-align: start;
-    margin: 0;
-    padding: 0.3rem 0;
-    font-weight: 600;
+    text-align: start !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+    font-weight: 600 !important;
 }
 
 .valcode-trustpilot-text {
-    margin: 0;
-    padding: 0.3rem 0;
-    font-size: 12px;
-    text-align: start;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+    font-size: 12px !important;
+    text-align: start !important;
 }
 
 .valcode-trustpilot-name {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+    text-align: start !important;
+    font-size: 14px !important;
+}
+
+/* ======== Foam request =========  */
+
+.valcode-formrequest-content {
+    max-width: 350px !important;
+    position: relative !important;
+
+}
+
+.valcode-formrequest-details {
+    width: 70% !important;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    padding: 2rem 1rem !important;
+}
+
+.valcode-formrequest-image {
+    width: 30% !important;
+    height: 230px !important;
+    overflow: hidden !important;
+}
+
+.valcode-formrequest-img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+}
+
+.valcode-formrequest-title {
+    margin: 0 !important;
+    font-size: 14px !important;
+    text-align: start !important;
+    font-weight: 600 !important;
+
+}
+
+.valcode-formrequest-subtitle {
+    font-size: 12px !important;
+    text-align: start !important;
+}
+
+.valcode-formrequest-link {
+    margin: 0 !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    padding: 0.3rem 0.5rem !important;
+    border-radius: 4px !important;
+}
+
+.valcode-formrequest-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.valcode-formrequest-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-formrequest-close .valcode-formrequest-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-formrequest-content {
+        max-width: 260px !important;
+    }
+
+    .valcode-formrequest-details {
+        padding: 1rem 1rem !important;
+    }
+
+    .valcode-formrequest-image {
+        height: 180px !important;
+    }
+
+    .valcode-formrequest-title {
+        font-size: 12px !important;
+    }
+
+    .valcode-formrequest-subtitle {
+        font-size: 12px !important;
+        text-align: start !important;
+    }
+
+}
+
+/* =============== Emoji Feedback ==========  */
+
+.valcode-emojifeedbk-content {
+    max-width: 250px !important;
+    padding: 1.5rem 1rem !important;
+    position: relative !important;
+}
+
+.valcode-emojifeedbk-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-emojifeedbk-close .valcode-emojifeedbk-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-emojifeedbk-images {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0.5rem 0 !important;
+}
+
+.valcode-emojifeedbk-btn {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+.valcode-emojifeedbk-emoji {
+    height: 25px !important;
+    width: 25px !important;
+    object-fit: fill !important;
+}
+
+.valcode-emojifeedbk-title {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+
+.valcode-emojifeedbk-brand {
+    margin: 0 !important;
+    font-size: 10px !important;
+}
+
+@media(max-width:950px) {
+    .valcode-emojifeedbk-content {
+        max-width: 200px;
+        padding: 1rem 1rem !important;
+        position: relative !important;
+    }
+
+    .valcode-emojifeedbk-emoji {
+        height: 20px !important;
+        width: 20px !important;
+    }
+}
+
+
+/* ========== Score feedback contest ======  */
+
+.valcode-scorefeedbk-content {
+    max-width: 230px !important;
+    position: relative !important;
+    padding: 1rem 1rem !important;
+}
+
+.valcode-scorefeedbk-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-scorefeedbk-close .valcode-scorefeedbk-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-scorefeedbk-title {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+.valcode-scorefeedbk-details {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 2px !important;
+    padding: 0.5rem 0 !important;
+}
+
+.valcode-scorefeedbk-btn {
+    cursor: pointer !important;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 2px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.valcode-scorefeedbk-text {
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+
+.valcode-scorefeedbk-brand {
+    margin: 0 !important;
+    font-size: 12px !important;
+    padding: 0.3rem 0 !important;
+}
+
+
+/* <!-- ===================== Request for testmonial with page ==  --> */
+.valcode-rftwp-content {
+    max-width: 300px !important;
+    position: relative !important;
+    padding: 0 1rem !important;
+}
+
+.valcode-rftwp-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-rftwp-close .valcode-rftwp-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-rftwp-header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -1.5rem !important;
+}
+
+.valcode-rftwp-image {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-rftwp-title {
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    padding: 0.3rem !important;
+}
+
+.valcode-rftwp-subtitle {
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+}
+
+.valcode-rftwp-inputfields {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-allinputs {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    padding: 0.5rem 2rem !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-stars-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+}
+
+.valcode-rftwp-inputs {
+    outline: none !important;
+    font-size: 12px !important;
+}
+
+.valcode-rftwp-btn {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+.valcode-rftwp-click {
+    margin: 0 !important;
+    font-size: 14px !important;
+    padding: 0.3rem 0 !important;
+}
+
+.valcode-rftwp-labels {
+    padding: 0.5rem 0 0.1rem 0 !important;
+    font-size: 10px !important;
+
+}
+
+.valcode-rftwp-brand {
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+    font-size: 10px !important;
+}
+
+.valcode-rftwp-inputs {
+    width: 97% !important;
+}
+
+.valcode-rftwp-btn {
+    width: 100% !important;
+    padding: 0.3rem 0 !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0.5rem 0 !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-rftwp-content {
+        max-width: 250px !important;
+        padding: 0 0.5rem !important;
+    }
+
+    .valcode-rftwp-allinputs {
+        padding: 0.7rem 0.8rem !important;
+    }
+
+    .valcode-rftwp-btn {
+        border: none !important;
+        background: transparent !important;
+        outline: none !important;
+        cursor: pointer !important;
+    }
+}
+
+
+/* ====== Follow us on social Media ====  */
+
+.valcode-fuosm-content {
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 1rem 1rem !important;
+}
+
+.valcode-fuosm-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-fuosm-close .valcode-fuosm-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-fuosm-title {
+    margin: 0 !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.valcode-fuosm-subtitle {
+    margin: 0 0 0.5rem 0 !important;
+    font-size: 12px !important;
+}
+
+.valcode-fuosm-icon {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.valcode-fuosm-link {
+    width: 100% !important;
+    text-decoration: none !important;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    padding: 0.3rem 0 0.3rem 0.3rem !important;
+    margin: 0.3rem 0 !important;
+    gap: 5px !important;
+    border-radius: 4px !important;
+}
+
+.valcode-fuosm-social {
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: start !important;
+    font-weight: 600 !important;
+}
+
+.valcode-fuosm-text {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: start !important;
+}
+
+@media(max-width:950px) {
+    .valcode-fuosm-content {
+        max-width: 200px !important;
+        position: relative !important;
+        padding: 1rem 1rem !important;
+    }
+
+}
+
+
+/* ============ Quiz ===============  */
+
+.valcode-quiz-content {
+    max-width: 300px !important;
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.valcode-quiz-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-quiz-close .valcode-quiz-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-quiz-img-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    flex: 1 !important;
+}
+
+.valcode-quiz-image {
+    object-fit: fill !important;
+    width: 100% !important;
+    height: 150px !important;
+    overflow: hidden !important;
+
+}
+
+.valcode-quiz-details {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 1rem 1rem !important;
+    flex: 1 !important;
+}
+
+.valcode-quiz-title {
+    margin: 0 !important;
+    font-size: 14px !important;
+    text-align: start !important;
+    font-weight: 600 !important;
+}
+
+.valcode-quiz-text {
+    font-size: 10px !important;
+    text-align: start !important;
+    padding: 0.5rem 1rem 0.5rem 0 !important;
+    margin: 0 !important;
+}
+
+.valcode-quiz-link {
+    font-size: 10px !important;
+    width: 100% !important;
+    text-align: none !important;
+    text-decoration: none !important;
+    padding: 0.3rem 0 !important;
+    border-radius: 3px !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-quiz-content {
+        max-width: 250px !important;
+    }
+}
+
+/* ======= spinning wheel =======  */
+
+.valcode-spinning-content {
+    max-width: 300px !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 2rem !important;
+    overflow: hidden !important;
+
+}
+
+.valcode-spinning-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-spinning-close .valcode-spinning-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-spinning-details {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.valcode-spinning-title {
+    margin: 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-spinning-subtitle {
+    margin: 0 !important;
+    font-size: 12px !important;
+    padding: 0.3rem 0 !important;
+}
+
+.valcode-spinning-container {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+}
+
+.valcode-spinning-input {
+    width: 100% !important;
+    margin: 0.4rem 0 !important;
+    padding: 0.3rem 0.2rem !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 4px !important;
+}
+
+.valcode-spinning-button {
+    width: 100% !important;
+    border: none !important;
+    padding: 0.3rem 0 !important;
+    outline: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.valcode-spinning-img {
+    height: 200px !important;
+    width: 250px !important;
+    overflow: hidden !important;
+    margin-left: -7rem !important;
+    margin-top: 1rem !important;
+    object-fit: contain !important;
+}
+
+@media(max-width:950px) {
+    .valcode-spinning-content {
+        max-width: 300px !important;
+        padding: 0.5rem 2rem !important;
+
+
+    }
+
+    .valcode-spinning-img {
+        height: 150px !important;
+        width: 200px !important;
+        overflow: hidden !important;
+        margin-left: -7rem !important;
+        margin-top: 1rem !important;
+        object-fit: contain !important;
+    }
+
+    .valcode-spinning-title {
+        font-size: 14px !important;
+
+    }
+
+    .valcode-spinning-subtitle {
+        margin: 0 !important;
+        font-size: 12px !important;
+        padding: 0.3rem 0 !important;
+    }
+}
+
+/* =============   Whatsaap chat ====  */
+
+
+.valcode-whatsapp-content {
+    max-width: 300px !important;
+    border-radius: 5px !important;
+    height: 220px !important;
+    position: relative !important;
+}
+
+.valcode-whatsapp-header {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.valcode-whatsapp-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-whatsapp-close .valcode-whatsapp-close-img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-whatsapp-name {
+    font-size: 10px !important;
+    margin: 0 !important;
+}
+
+.valcode-whatsapp-time {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: end !important;
+}
+
+.valcode-whatsapp-avatar {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-whatsapp-avatar img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-whatsapp-title {
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: start !important;
+}
+
+.valcode-whatsapp-subtitle {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: start !important;
+
+}
+
+.valcode-whatsapp-link {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    padding: 0.3rem 0 !important;
+    border-radius: 10px !important;
+    gap: 5px !important;
+}
+
+.valcode-whatsapp-link-img {
+    height: 12px !important;
+    width: 12px !important;
+
+}
+
+.valcode-whatsapp-leftchat {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 1rem 0 0.5rem 0.5rem !important;
+}
+
+.valcode-whatsapp-leftchat-text {
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+
+}
+
+.valcode-whatsapp-leftchat-chat {
+    padding: 0.7rem 0.7rem !important;
+    max-width: 65% !important;
+    text-align: start !important;
+    border-radius: 5px !important;
+}
+
+.valcode-whatsapp-discount {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 5px !important;
+    position: absolute !important;
+    bottom: -50px !important;
+}
+
+.valcode-whatsapp-discount-img {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.valcode-whatsapp-discount-text {
+    font-size: 10px !important;
+    padding: 0.3rem 0.5rem !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-whatsapp-footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 1rem !important;
+}
+
+@media(max-width:950px) {
+
+    .valcode-whatsapp-content {
+        max-width: 250px !important;
+        max-height: 280px !important;
+    }
+
+    .valcode-whatsapp-avatar {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-whatsapp-avatar img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-whatsapp-title {
+        font-size: 12px !important;
+        margin: 0;
+    }
+
+    .valcode-whatsapp-leftchat-image {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-whatsapp-leftchat-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-whatsapp-footer {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+}
+
+/* ============= Messenger Chat ===========  */
+
+
+.valcode-messenger-content {
+    max-width: 300px !important;
+    border-radius: 5px !important;
+    height: 220px !important;
+    position: relative !important;
+}
+
+.valcode-messenger-header {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.valcode-messenger-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-messenger-close .valcode-messenger-close-img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-messenger-name {
+    font-size: 10px !important;
+    margin: 0 !important;
+}
+
+.valcode-messenger-time {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: end !important;
+}
+
+.valcode-messenger-avatar {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-messenger-avatar img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-messenger-title {
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: start !important;
+}
+
+.valcode-messenger-subtitle {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: start !important;
+
+}
+
+.valcode-messenger-link {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    padding: 0.3rem 0 !important;
+    border-radius: 10px !important;
+    gap: 5px !important;
+}
+
+.valcode-messenger-link-img {
+    height: 12px !important;
+    width: 12px !important;
+
+}
+
+.valcode-messenger-leftchat {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 1rem 0 0.5rem 0.5rem !important;
+}
+
+.valcode-messenger-leftchat-text {
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+
+}
+
+.valcode-messenger-leftchat-chat {
+    padding: 0.7rem 0.7rem !important;
+    max-width: 65% !important;
+    text-align: start !important;
+    border-radius: 5px !important;
+}
+
+.valcode-messenger-discount {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 5px !important;
+    position: absolute !important;
+    bottom: -50px !important;
+}
+
+.valcode-messenger-discount-img {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.valcode-messenger-discount-text {
+    font-size: 10px !important;
+    padding: 0.3rem 0.5rem !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-messenger-footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 1rem !important;
+}
+
+@media(max-width:950px) {
+
+    .valcode-messenger-content {
+        max-width: 250px !important;
+        max-height: 280px !important;
+    }
+
+    .valcode-messenger-avatar {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-messenger-avatar img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .valcode-messenger-title {
+        font-size: 12px !important;
+        margin: 0;
+    }
+
+    .valcode-messenger-leftchat-image {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .valcode-messenger-leftchat-text {
+        font-size: 10px !important;
+    }
+
+    .valcode-messenger-footer {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+}
+
+/* ================= Social share ========  */
+
+.valcode-socialshare-content {
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 1rem 0.5rem !important;
+}
+
+.valcode-socialshare-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-socialshare-close .valcode-socialshare-close-img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-socialshare-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+    padding: 1rem 0 0.5rem 0 !important;
+}
+
+.valcode-socialshare-title {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-socialshare-text {
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+
+.valcode-socialshare-btn {
+    cursor: pointer !important;
+    outline: none !important;
+    border: none !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border-radius: 2px !important;
+    padding: 0.3rem 0.5rem !important;
+}
+
+.valcode-socialshare-brand {
+    font-size: 10px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    padding: 0.3rem 0 !important;
+}
+
+@media(max-width:950px) {
+    .valcode-socialshare-content {
+        max-width: 200px !important;
+        position: relative !important;
+        padding: 1rem 0.5rem !important;
+    }
+}
+
+/* <!-- ===================== Ad block hack =============  --> */
+
+.valcode-adblockhack-content {
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 2rem 1rem !important;
+}
+
+.valcode-adblockhack-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-adblockhack-close .valcode-adblockhack-close-img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-adblockhack-title {
+    font-size: 20px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    padding: 0 1rem !important;
+}
+
+.valcode-adblockhack-subtitle {
+    font-size: 12px !important;
+}
+
+.valcode-adblockhack-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 0.5rem !important;
+    gap: 5px !important;
+}
+
+.valcode-adblockhack-btn {
+    width: 50% !important;
+    outline: none !important;
+    padding: 0.6rem 0 !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.valcode-adblockhack-member {
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0.5rem 0 !important;
+}
+
+
+@media(max-width:950px) {
+    .valcode-adblockhack-content {
+        max-width: 200px !important;
+        padding: 1rem 1rem !important;
+    }
+
+    .valcode-adblockhack-title {
+        font-size: 16px !important;
+        padding: 0 1rem !important;
+    }
+
+    .valcode-adblockhack-btn {
+        padding: 0.5rem 0 !important;
+
+    }
+}
+
+/* ============ Video reviews =======  */
+
+
+.valcode-videoreviews-content {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 1rem 2rem !important;
+}
+
+.valcode-videoreviews-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-videoreviews-close .valcode-videoreviews-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-videoreviews-video {
+    width: 100% !important;
+    height: 140px !important;
+}
+
+.valcode-videoreviews-title {
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 600;
     padding: 0.3rem 0;
-    text-align: start;
-    font-size: 14px;
+}
+
+.valcode-videoreviews-footer {
+    font-size: 10px !important;
+}
+
+.valcode-videoreviews-name {
+    font-size: 10px;
+    margin: 0;
+    font-style: italic;
+    padding: 0.3rem 0;
+}
+
+.valcode-videoreviews-btnleft-img,
+.valcode-videoreviews-btnright-img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.valcode-videoreviews-btnleft {
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    outline: none !important;
+    position: absolute !important;
+    left: -50px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+.valcode-videoreviews-btnright {
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    outline: none !important;
+    position: absolute !important;
+    right: -50px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+.valcode-videoreviews-button {
+    border: none !important;
+    width: 90% !important;
+    outline: none !important;
+    padding: 0.5rem 0 !important;
+    margin-top: 1rem !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-videoreviews-content {
+        max-width: 200px !important;
+    }
+
+
+    .valcode-videoreviews-close .valcode-videoreviews-close-image {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    .valcode-videoreviews-video {
+        width: 100% !important;
+        height: 130px !important;
+    }
+
+    .valcode-videoreviews-title {
+        font-size: 14px !important;
+        margin: 0 !important;
+    }
+
+    .valcode-videoreviews-subtitle {
+        font-size: 10px !important;
+    }
+
+    .valcode-videoreviews-footer {
+        font-size: 8px !important;
+    }
+
+    .valcode-videoreviews-button {
+        padding: 0.5rem 0 !important;
+        margin-top: 0.5rem !important;
+        font-size: 12px !important;
+
+    }
+
+    .valcode-videoreviews-btnleft-img,
+    .valcode-videoreviews-btnright-img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .valcode-videoreviews-btnleft {
+
+        left: -30px !important;
+
+    }
+
+    .valcode-videoreviews-btnright {
+        right: -30px !important;
+
+    }
 }
