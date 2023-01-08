@@ -1336,8 +1336,110 @@
 
     }
 
+
 }
 
+/* ===============EVENT REGISTRATION WITH TIMER Two   */
+
+.valcode-erwt-b-content{
+    max-width: 420px !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.valcode-erwt-b-img{
+    height:100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+}
+.valcode-erwt-b-img-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex: 1 !important;
+    width: 100% !important;
+}
+.valcode-erwt-b-details{
+    flex: 1 !important;
+    width: 100% !important;
+    padding: 0.5rem 0.5rem !important;
+}
+.valcode-erwt-b-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-erwt-b-close img {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-erwt-b-title {
+    width: 60% !important;
+    font-size: 12px !important;
+    padding: 0.3rem 0 !important;
+    border-radius: 2px !important;
+    margin: 0 !important;
+}
+.valcode-erwt-b-subtitle {
+    font-size: 11px !important;
+    text-align: center !important;
+    padding: 0.3rem 0 !important;
+    margin: 0;
+}
+.valcode-erwt-b-timer-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 5px !important;
+    padding: 0.3rem 0 !important;
+}
+.valcode-erwt-b-box {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.valcode-erwt-b-time {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.valcode-erwt-b-span {
+    font-size: 10px !important;
+}
+.valcode-erwt-b-footer-btn {
+    border: none !important;
+    outline: none !important;
+    padding: 0.3rem 0 !important;
+    width: 50% !important;
+    border-radius: 2px !important;
+    font-size: 10px !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    margin: 0  !important;
+}
+
+@media(max-width:950px){
+    .valcode-erwt-b-content{
+        max-width: 250px !important;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }   
+}
 /* ================================LATEST CONVERSATION STARTS HERE ===================*/
 
 
@@ -1406,7 +1508,7 @@
     display: flex !important;
     align-items: center;
     gap: 2rem !important;
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 .valcode-latest-converse-profile-title-time-one {
@@ -2101,13 +2203,13 @@
 
 
 .valcode-videoembeded-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 250px;
-    position: relative;
-    padding: 1rem 2rem;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 250px !important;
+    position: relative !important;
+    padding: 1rem 2rem !important;
 }
 
 .valcode-videoembeded-close {
@@ -2149,9 +2251,9 @@
 .valcode-videoembeded-button {
     border: none !important;
     width: 90% !important;
-    outline: none;
+    outline: none !important;
     padding: 0.5rem 0 !important;
-    margin-top: 1rem;
+    margin-top: 1rem !important;
     font-size: 14px !important;
     font-weight: 600 !important;
     border-radius: 4px !important;
@@ -2201,7 +2303,7 @@
     max-width: 270px !important;
     height: fit-content !important;
     margin-top: 1rem !important;
-    position: relative;
+    position: relative !important;
 }
 
 .valcode-SNL-content-desc-wrapper {
@@ -2235,12 +2337,12 @@
 }
 
 .valcode-SNL-image-display-wrapper {
-    height: 110px;
+    height: 110px !important;
 }
 
 .valcode-SNL-image-display-wrapper-img {
     width: 100% !important;
-    object-fit: cover;
+    object-fit: cover !important;
     height: 100% !important;
 }
 
@@ -2255,16 +2357,16 @@
 .valcode-SNL-content-input {
     font-size: .5rem !important;
     text-align: center !important;
-    padding: 0.5rem 0.5rem;
-    outline: none;
-    width: 80%;
+    padding: 0.5rem 0.5rem !important;
+    outline: none !important;
+    width: 80% !important;
 }
 
 .valcode-SNL-content-button {
     width: 90% !important;
     font-size: .5rem !important;
     padding: 0.5rem 0.5rem !important;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 
@@ -2332,7 +2434,7 @@
     cursor: pointer !important;
     margin-top: .2rem !important;
     font-size: 10px !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .valcode-baas-subtitle {
@@ -2580,12 +2682,23 @@
     }
 }
 
+
+
 /* ======== Facebook Reviews ======  */
 
 .valcode-fbreviews-content {
-    max-width: 300px !important;
+    max-width: 350px !important;
+    position: relative !important;
 }
-
+.valcode-fbreviews-image{
+    position: absolute !important;
+    top: 30px !important;
+    right: 10px !important;
+}
+.valcode-fbreviews-icon{
+    width: 10px !important;
+    height: 10px !important;
+}
 .valcode-fbreviews-details {
     display: flex !important;
     justify-content: start !important;
@@ -2624,6 +2737,61 @@
     padding: 0 0.2rem 0.3rem 1.5rem !important;
 }
 
+/* ============ Google Reviews ========  */
+
+
+.valcode-googlereviews-content {
+    max-width: 350px !important;
+    position: relative !important;
+}
+.valcode-googlereviews-image{
+    position: absolute !important;
+    top: 30px !important;
+    right: 10px !important;
+}
+.valcode-googlereviews-icon{
+    width: 10px !important;
+    height: 10px !important;
+}
+.valcode-googlereviews-details {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    gap: 10px !important;
+    padding: 0.3rem 1rem !important;
+}
+
+.valcode-googlereviews-title {
+    font-size: 12px !important;
+    padding: 0.3rem 0 !important;
+    margin: 0 !important;
+}
+
+.valcode-googlereviews-details-left-img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.valcode-googlereviews-details-text {
+    font-size: 10px !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+.valcode-googlereviews-date {
+    margin: 0 !important;
+    font-size: 10px !important;
+    text-align: start !important;
+}
+
+.valcode-googlereviews-word {
+    font-size: 10px !important;
+    text-align: start !important;
+    margin: 0 !important;
+    padding: 0 0.2rem 0.3rem 1.5rem !important;
+}
+
+
 
 /* ============== YELP Reviews ===========  */
 
@@ -2652,8 +2820,8 @@
 }
 
 .valcode-yelp-details-container {
-    display: flex;
-    justify-content: start;
+    display: flex !important;
+    justify-content: start !important;
     align-items: start !important;
     gap: 10px !important;
 }
@@ -2930,7 +3098,7 @@
 
 @media(max-width:950px) {
     .valcode-emojifeedbk-content {
-        max-width: 200px;
+        max-width: 200px !important;
         padding: 1rem 1rem !important;
         position: relative !important;
     }
@@ -3005,13 +3173,13 @@
 
 
 /* <!-- ===================== Request for testmonial with page ==  --> */
-.valcode-rftwp-content {
+.valcode-rftwp-a-one-content {
     max-width: 300px !important;
     position: relative !important;
     padding: 0 1rem !important;
 }
 
-.valcode-rftwp-close {
+.valcode-rftwp-a-one-close {
     width: 30px !important;
     height: 30px !important;
     background: transparent !important;
@@ -3024,44 +3192,44 @@
     z-index: 1 !important;
 }
 
-.valcode-rftwp-close .valcode-rftwp-close-image {
+.valcode-rftwp-a-one-close .valcode-rftwp-a-one-close-image {
     width: 8px !important;
     height: 8px !important;
 }
 
-.valcode-rftwp-header {
+.valcode-rftwp-a-one-header {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     margin-top: -1.5rem !important;
 }
 
-.valcode-rftwp-image {
+.valcode-rftwp-a-one-image {
     height: 40px !important;
     width: 40px !important;
 }
 
-.valcode-rftwp-title {
+.valcode-rftwp-a-one-title {
     font-size: 14px !important;
     margin: 0 !important;
     font-weight: 600 !important;
     padding: 0.3rem !important;
 }
 
-.valcode-rftwp-subtitle {
+.valcode-rftwp-a-one-subtitle {
     font-size: 12px !important;
     margin: 0 !important;
     padding: 0.5rem !important;
 }
 
-.valcode-rftwp-inputfields {
+.valcode-rftwp-a-one-inputfields {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
 }
 
-.valcode-rftwp-allinputs {
+.valcode-rftwp-a-one-allinputs {
     display: flex !important;
     justify-content: start !important;
     align-items: start !important;
@@ -3069,49 +3237,49 @@
     flex-direction: column !important;
 }
 
-.valcode-rftwp-stars-container {
+.valcode-rftwp-a-one-stars-container {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     gap: 5px !important;
 }
 
-.valcode-rftwp-inputs {
+.valcode-rftwp-a-one-inputs {
     outline: none !important;
     font-size: 12px !important;
 }
 
-.valcode-rftwp-btn {
+.valcode-rftwp-a-one-btn {
     border: none !important;
     background: transparent !important;
     outline: none !important;
     cursor: pointer !important;
 }
 
-.valcode-rftwp-click {
+.valcode-rftwp-a-one-click {
     margin: 0 !important;
     font-size: 14px !important;
     padding: 0.3rem 0 !important;
 }
 
-.valcode-rftwp-labels {
+.valcode-rftwp-a-one-labels {
     padding: 0.5rem 0 0.1rem 0 !important;
     font-size: 10px !important;
 
 }
 
-.valcode-rftwp-brand {
+.valcode-rftwp-a-one-brand {
     text-align: center !important;
     margin: 0 !important;
     padding: 0.3rem 0 !important;
     font-size: 10px !important;
 }
 
-.valcode-rftwp-inputs {
+.valcode-rftwp-a-one-inputs {
     width: 97% !important;
 }
 
-.valcode-rftwp-btn {
+.valcode-rftwp-a-one-submit {
     width: 100% !important;
     padding: 0.3rem 0 !important;
     border: none !important;
@@ -3120,22 +3288,340 @@
 }
 
 @media(max-width: 950px) {
-    .valcode-rftwp-content {
+    .valcode-rftwp-a-one-content {
         max-width: 250px !important;
         padding: 0 0.5rem !important;
     }
 
-    .valcode-rftwp-allinputs {
+    .valcode-rftwp-a-one-allinputs {
         padding: 0.7rem 0.8rem !important;
     }
 
-    .valcode-rftwp-btn {
+    .valcode-rftwp-a-one-btn {
         border: none !important;
         background: transparent !important;
         outline: none !important;
         cursor: pointer !important;
     }
 }
+
+/* ============= Image A 2 ==========   */
+.valcode-rftwp-a-two-content {
+    max-width: 300px !important;
+    position: relative !important;
+    padding: 0 1rem !important;
+}
+
+.valcode-rftwp-a-two-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-rftwp-a-two-close .valcode-rftwp-a-two-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-rftwp-a-two-header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -1.5rem !important;
+}
+
+.valcode-rftwp-a-two-image {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-rftwp-a-two-title {
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    padding: 0.3rem !important;
+}
+
+.valcode-rftwp-a-two-subtitle {
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+}
+
+.valcode-rftwp-a-two-inputfields {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-a-two-allinputs {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    padding: 0.5rem 2rem !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-a-two-stars-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+}
+
+.valcode-rftwp-a-two-inputs {
+    outline: none !important;
+    font-size: 12px !important;
+}
+
+.valcode-rftwp-a-two-btn {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+.valcode-rftwp-a-two-click {
+    margin: 0 !important;
+    font-size: 14px !important;
+    padding: 0.3rem 0 !important;
+}
+
+.valcode-rftwp-a-two-labels {
+    padding: 0.5rem 0 0.1rem 0 !important;
+    font-size: 11px !important;
+
+}
+
+.valcode-rftwp-a-two-brand {
+    text-align: center !important;
+    margin: 0!important;
+    padding: 1rem 0 !important;
+    font-size: 10px !important;
+}
+
+.valcode-rftwp-a-two-inputs {
+    width: 97% !important;
+}
+.valcode-rftwp-a-two-links{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap:5px !important;
+
+}
+
+.valcode-rftwp-a-two-link {
+    width: 100% !important;
+    padding: 0.2rem 1rem !important;
+    border: none !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    outline: none !important;
+    margin: 0.1rem 0 !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-rftwp-a-two-content {
+        max-width: 250px !important;
+        padding: 0 0.5rem !important;
+    }
+
+    .valcode-rftwp-a-two-allinputs {
+        padding: 0.7rem 0.8rem !important;
+    }
+
+
+}
+
+/* ============== Image B one ======  */
+
+.valcode-rftwp-b-one-content {
+    max-width: 300px !important;
+    position: relative !important;
+    padding: 0 1rem !important;
+}
+
+.valcode-rftwp-b-one-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-rftwp-b-one-close .valcode-rftwp-b-one-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.valcode-rftwp-b-one-header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -1.5rem !important;
+}
+
+.valcode-rftwp-b-one-image {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.valcode-rftwp-b-one-title {
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    padding: 0.3rem !important;
+}
+
+.valcode-rftwp-b-one-subtitle {
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+}
+.valcode-rftwp-b-one-btn{
+    width: 70% !important;
+    font-size: 12px!important;
+    cursor: pointer!important;
+    border: none!important;
+    border-radius: 5px!important;
+    padding: 0.5rem 0!important;
+    margin: 1rem 0!important;
+}
+
+@media(max-width: 950px) {
+    .valcode-rftwp-b-one-content {
+        max-width: 250px !important;
+        padding: 0 0.5rem !important;
+    }
+}
+
+
+/* ================ IMAGE B TWO ========  */
+
+.valcode-rftwp-b-two-content {
+    max-width: 300px !important;
+    position: relative !important;
+    padding: 1rem 1rem !important;
+}
+
+.valcode-rftwp-b-two-close {
+    width: 30px !important;
+    height: 30px !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+.valcode-rftwp-b-two-close .valcode-rftwp-b-two-close-image {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+
+.valcode-rftwp-b-two-inputfields {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-b-two-allinputs {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    padding: 0.5rem 2rem !important;
+    flex-direction: column !important;
+}
+
+.valcode-rftwp-b-two-stars-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.valcode-rftwp-b-two-inputs {
+    outline: none !important;
+    font-size: 12px !important;
+}
+
+.valcode-rftwp-b-two-btn {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+.valcode-rftwp-b-two-click {
+    margin: 0 !important;
+    font-size: 14px !important;
+    padding: 0.3rem 0 !important;
+}
+
+.valcode-rftwp-b-two-labels {
+    padding: 0.5rem 0 0.1rem 0 !important;
+    font-size: 10px !important;
+
+}
+
+.valcode-rftwp-b-two-brand {
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0.3rem 0 !important;
+    font-size: 10px !important;
+}
+
+.valcode-rftwp-b-two-inputs {
+    width: 97% !important;
+}
+
+.valcode-rftwp-b-two-submit {
+    width: 100% !important;
+    padding: 0.3rem 0 !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0.5rem 0 !important;
+    cursor: pointer !important;
+}
+
+@media(max-width: 950px) {
+    .valcode-rftwp-b-two-content {
+        max-width: 250px !important;
+        padding: 0 0.5rem !important;
+    }
+
+    .valcode-rftwp-b-two-allinputs {
+        padding: 0.7rem 0.8rem !important;
+    }
+
+    .valcode-rftwp-b-two-btn {
+        border: none !important;
+        background: transparent !important;
+        outline: none !important;
+        cursor: pointer !important;
+    }
+}
+
+
 
 
 /* ====== Follow us on social Media ====  */
@@ -4060,3 +4546,4 @@
 
     }
 }
+
